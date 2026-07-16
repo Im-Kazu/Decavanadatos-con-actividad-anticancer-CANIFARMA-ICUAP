@@ -1,0 +1,727 @@
+
+       _______________________________________________________
+
+__________//____________________________/////_________________/________
+_________/__/____________/_____________/______________/_______/________
+________/____/___________/_____________/______________________/________
+________/____/__/_____/_/////___/////__/__////_/_///__/__////_/________
+_______/______/_/_____/__/_____/_____/_/_____/_//___/_/_/____//________
+_______////////_/_____/__/_____/_____/_/_____/_/______/_/_____/________
+_______/______/_/____//__/___/_/_____/_/_____/_/______/_/____//________
+_______/______/__////_/___///___/////___/////__/______/__////_/________
+
+       _______________________________________________________
+
+                                ______
+                               /      \
+                              /        \
+                             /          \
+                             \    /\    /
+                              \  /  \  /
+                               \/ /\ \/
+                                 /  \
+                                /____\
+
+
+                ______________________________________ 
+               |                                      |
+               |            AutoGrid 4.2.6            |
+               |                                      |
+               |        Garrett M. Morris, TSRI       |
+               |            Ruth Huey, TSRI           |
+               |        David S. Goodsell, TSRI       |
+               |         Arthur J. Olson, TSRI        |
+               |                                      |
+               |        (C) 1989-2009, TSRI           |
+               |   The Scripps Research Institute     |
+               |______________________________________|
+
+                ______________________________________ 
+               |                                      |
+               | Calculation of van der Waals, H-Bond,|
+               |   Electrostatic Potential Energy, &  |
+               |   Desolvation Free Energy Grid Maps  |
+               |             for AutoDock             |
+               | For help, email autodock@scripps.edu |
+               |______________________________________|
+
+
+
+
+                           $Revision: 1.109 $
+Compilation parameters:  NUM_RECEPTOR_TYPES=20 NEINT=2048
+   MAX_MAPS=16 NDIEL=16384 MAX_ATOM_TYPES=14
+ energy_lookup table has   655360 entries of size 8
+        e_vdW_Hb table has   401408 entries of size 8
+Maximum number of maps that can be computed = 16 (defined by MAX_MAPS in "autocomm.h").
+This file was created at:			7:42 18" p.m., 06/23/2026
+                   using:			"TERMINALXOLOTL"
+
+
+GPF> npts 98 61 80
+D:\Programas\AutoDock4\4.2.6\autogrid4.exe: Number of grid elements must be even; y-elements changed to: 60
+
+Number of grid points in x-direction:	99
+Number of grid points in y-direction:	61
+Number of grid points in z-direction:	81
+
+GPF> gridfld Hidrogel1.maps.fld
+
+Creating (AVS-readable) grid maps file : Hidrogel1.maps.fld
+
+Creating (AVS-readable) grid-coordinates extrema file : Hidrogel1.maps.xyz
+
+GPF> spacing 0.375
+Grid Spacing :			0.375 Angstrom
+
+GPF> receptor_types C N OA HD A
+GPF> ligand_types OA Zn
+
+Atom type names for ligand atom types 1-2 used for ligand-atom affinity grid maps:
+
+			Atom type number 0 corresponds to atom type name "OA".
+			Atom type number 1 corresponds to atom type name "Zn".
+
+
+GPF> receptor Hidrogel1.pdbqt
+
+Receptor Input File :	Hidrogel1.pdbqt
+
+Receptor Atom Type Assignments:
+
+Atom no.  1, " C  " at (7.577, -20.639, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  2, " C  " at (9.620, -20.638, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  3, " C  " at (8.600, -20.049, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  4, " C  " at (9.620, -21.820, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  5, " C  " at (7.577, -21.825, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  6, " C  " at (8.603, -22.410, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  7, " C  " at (10.640, -20.050, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  8, " C  " at (11.664, -20.641, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no.  9, " C  " at (10.647, -22.413, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 10, " C  " at (11.666, -21.816, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 11, " C  " at (12.677, -20.053, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 12, " C  " at (13.697, -20.639, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 13, " C  " at (12.690, -22.404, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 14, " C  " at (13.702, -21.808, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 15, " C  " at (14.705, -20.052, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 16, " C  " at (15.721, -20.632, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 17, " C  " at (14.722, -22.391, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 18, " C  " at (15.728, -21.796, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 19, " C  " at (16.722, -20.046, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 20, " C  " at (17.734, -20.621, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 21, " C  " at (16.744, -22.373, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 22, " C  " at (17.744, -21.779, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 23, " C  " at (18.729, -20.035, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 24, " C  " at (19.737, -20.605, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 25, " C  " at (18.756, -22.351, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 26, " C  " at (19.750, -21.757, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 27, " C  " at (20.726, -20.021, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 28, " C  " at (21.730, -20.585, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 29, " C  " at (20.758, -22.324, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 30, " C  " at (21.745, -21.732, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 31, " C  " at (22.712, -20.002, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 32, " C  " at (23.713, -20.561, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 33, " C  " at (22.750, -22.294, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 34, " C  " at (23.731, -21.702, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 35, " C  " at (6.553, -22.416, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 36, " C  " at (5.525, -21.823, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 37, " C  " at (6.545, -20.044, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 38, " C  " at (5.522, -20.643, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 39, " C  " at (4.496, -20.057, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 40, " C  " at (4.488, -18.872, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 41, " C  " at (6.538, -18.853, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 42, " C  " at (5.505, -18.273, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 43, " C  " at (22.698, -18.859, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 44, " C  " at (23.683, -18.272, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 45, " C  " at (24.702, -19.972, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 46, " C  " at (24.680, -18.826, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 47, " C  " at (3.466, -18.292, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 48, " C  " at (3.455, -17.112, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 49, " C  " at (5.495, -17.089, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 50, " C  " at (4.465, -16.515, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 51, " C  " at (23.666, -17.135, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 52, " C  " at (24.644, -16.548, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 53, " C  " at (25.662, -18.238, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 54, " C  " at (25.637, -17.098, 0.000),  was assigned atom type "A" (rec_index= 4, atom_type= 4).
+Atom no. 55, " C  " at (4.449, -15.339, 0.000),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 56, " C  " at (5.462, -14.735, 0.000),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 57, " N  " at (6.511, -16.482, 0.000),  was assigned atom type "N" (rec_index= 1, atom_type= 1).
+Atom no. 58, " C  " at (6.487, -15.305, 0.000),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 59, " N  " at (22.672, -16.581, 0.000),  was assigned atom type "N" (rec_index= 1, atom_type= 1).
+Atom no. 60, " C  " at (22.653, -15.440, 0.000),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 61, " C  " at (24.626, -15.403, 0.000),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 62, " C  " at (23.626, -14.854, 0.000),  was assigned atom type "C" (rec_index= 0, atom_type= 0).
+Atom no. 63, " O  " at (8.600, -18.873, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 64, " O  " at (10.640, -18.875, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 65, " O  " at (12.677, -18.878, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 66, " O  " at (14.705, -18.876, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 67, " O  " at (16.722, -18.870, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 68, " O  " at (18.729, -18.860, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 69, " O  " at (20.726, -18.845, 0.000),  was assigned atom type "OA" (rec_index= 2, atom_type= 2).
+Atom no. 70, " H  " at (7.582, -18.285, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 71, " H  " at (9.622, -18.287, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 72, " H  " at (11.659, -18.290, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 73, " H  " at (13.687, -18.288, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 74, " H  " at (15.704, -18.282, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 75, " H  " at (17.711, -18.272, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 76, " H  " at (19.708, -18.257, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 77, " H  " at (7.529, -17.070, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+Atom no. 78, " H  " at (21.654, -17.169, 0.000),  was assigned atom type "HD" (rec_index= 3, atom_type= 3).
+
+Maximum partial atomic charge found = +0.292 e
+Minimum partial atomic charge found = -0.505 e
+
+Atom	Atom	Number of this Type
+Type	 ID 	 in Receptor
+____	____	___________________
+ 0	 C		     6
+ 1	 N		     2
+ 2	 OA		     7
+ 3	 HD		     9
+ 4	 A		    54
+
+Total number of atoms :		78 atoms 
+Total charge :			-0.00 e
+
+
+Receptor coordinates fit within the following volume:
+
+                   _______(25.7, -14.7, 0.0)
+                  /|     /|
+                 / |    / |
+                /______/  |
+                |  |___|__| Midpoint = (14.6, -18.6, 0.0)
+                |  /   |  /
+                | /    | /
+                |/_____|/
+(3.5, -22.4, 0.0)      
+
+Maximum coordinates :		(25.662, -14.735, 0.000)
+Minimum coordinates :		(3.455, -22.416, 0.000)
+
+
+GPF> gridcenter 14.558 -18.575 0.000
+
+Grid maps will be centered on user-defined coordinates:
+
+		(14.558, -18.575, 0.000)
+
+Grid maps will cover the following volume:
+
+                   _______(32.9, -7.3, 15.0)
+                  /|     /|
+                 / |    / |
+                /______/  |
+                |  |___|__| Midpoint = (14.6, -18.6, 0.0)
+                |  /   |  /
+                | /    | /
+                |/_____|/
+(-3.8, -29.8, -15.0)      
+
+Grid map x-dimension :		36.8 Angstroms
+Grid map y-dimension :		22.5 Angstroms
+Grid map z-dimension :		30.0 Angstroms
+
+Maximum coordinates :		(32.933, -7.325, 15.000)
+Minimum coordinates :		(-3.817, -29.825, -15.000)
+
+GPF> smooth 0.5
+
+Potentials will be smoothed by: 0.500 Angstrom
+
+GPF> map Hidrogel1.OA.map
+
+Output Grid Map 1:   Hidrogel1.OA.map
+
+GPF> map Hidrogel1.Zn.map
+
+Output Grid Map 2:   Hidrogel1.Zn.map
+
+GPF> elecmap Hidrogel1.e.map
+
+Output Electrostatic Potential Energy Grid Map: Hidrogel1.e.map
+
+GPF> dsolvmap Hidrogel1.d.map
+
+Output Desolvation Free Energy Grid Map: Hidrogel1.d.map
+
+GPF> dielectric -0.1465
+Using *distance-dependent* dielectric function of Mehler and Solmajer, Prot.Eng.4, 903-910.
+
+  d   Dielectric
+ ___  __________
+ 0.0     1.00
+ 0.1     1.63
+ 0.2     1.91
+ 0.3     2.21
+ 0.4     2.51
+ 0.5     2.82
+ 0.6     3.13
+ 0.7     3.45
+ 0.8     3.78
+ 0.9     4.12
+ 1.0     4.47
+ 1.1     4.82
+ 1.2     5.18
+ 1.3     5.55
+ 1.4     5.93
+ 1.5     6.31
+ 1.6     6.70
+ 1.7     7.10
+ 1.8     7.51
+ 1.9     7.93
+ 2.0     8.36
+ 2.1     8.79
+ 2.2     9.23
+ 2.3     9.68
+ 2.4    10.14
+ 2.5    10.61
+ 2.6    11.08
+ 2.7    11.57
+ 2.8    12.06
+ 2.9    12.56
+ 3.0    13.07
+ 3.1    13.58
+ 3.2    14.11
+ 3.3    14.64
+ 3.4    15.18
+ 3.5    15.73
+ 3.6    16.28
+ 3.7    16.85
+ 3.8    17.42
+ 3.9    18.00
+ 4.0    18.58
+ 4.1    19.17
+ 4.2    19.77
+ 4.3    20.38
+ 4.4    20.99
+ 4.5    21.61
+ 4.6    22.23
+ 4.7    22.86
+ 4.8    23.50
+ 4.9    24.14
+ 5.0    24.78
+
+
+>>> Closing the grid parameter file (GPF)... <<<
+
+________________________________________________________________________________
+
+
+
+No Floating Grid was requested.
+
+
+Calculating Pairwise Interaction Energies
+=========================================
+
+
+              136402.3           125.3 
+    E    =  -----------  -  -----------
+     OA, C         12               6
+                r               r 
+
+Calculating energies for OA-C interactions.
+
+               59394.2            84.0 
+    E    =  -----------  -  -----------
+     OA, N         12               6
+                r               r 
+
+Calculating energies for OA-N interactions.
+
+               38323.1            71.4 
+    E    =  -----------  -  -----------
+     OA, OA         12               6
+                r               r 
+
+Calculating energies for OA-OA interactions.
+
+                6689.7          2223.7 
+    E    =  -----------  -  -----------
+     OA, HD         12              10
+                r               r 
+
+Calculating energies for OA-HD interactions.
+
+              136402.3           125.3 
+    E    =  -----------  -  -----------
+     OA, A         12               6
+                r               r 
+
+Calculating energies for OA-A interactions.
+
+
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        N        OA        HD        A    
+ ___ ________ ________ ________ ________ ________
+ 0.0   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.1   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.2   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.3   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.4   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.5   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.6   1e+005   1e+005   1e+005 35735.60   1e+005
+ 0.7   1e+005   1e+005 70824.32  8666.11   1e+005
+ 0.8 75860.38 33010.17 21286.48  2359.92 75860.38
+ 0.9 25440.38 11064.86  7132.00   700.69 25440.38
+ 1.0  9340.64  4059.50  2614.83   220.94  9340.64
+ 1.1  3701.64  1606.95  1034.02    71.96  3701.64
+ 1.2  1565.60   678.54   435.97    23.32  1565.60
+ 1.3   700.28   302.80   194.14     7.01   700.28
+ 1.4   328.77   141.70    90.58     1.56   328.77
+ 1.5   160.97    69.07    43.97    -0.15   160.97
+ 1.6    81.75    34.86    22.06    -0.57    81.75
+ 1.7    42.84    18.12    11.38    -0.60    42.84
+ 1.8    23.07     9.65     6.00    -0.60    23.07
+ 1.9    12.71     5.24     3.21    -0.60    12.71
+ 2.0     7.14     2.88     1.73    -0.60     7.14
+ 2.1     4.06     1.59     0.93    -0.60     4.06
+ 2.2     2.34     0.88     0.49    -0.58     2.34
+ 2.3     1.35     0.48     0.25    -0.48     1.35
+ 2.4     0.78     0.25     0.11    -0.37     0.78
+ 2.5     0.44     0.12     0.04    -0.27     0.44
+ 2.6     0.24     0.05     0.00    -0.20     0.24
+ 2.7     0.12     0.01    -0.02    -0.14     0.12
+ 2.8     0.05    -0.01    -0.03    -0.10     0.05
+ 2.9     0.01    -0.02    -0.03    -0.07     0.01
+ 3.0    -0.01    -0.03    -0.03    -0.05    -0.01
+ 3.1    -0.02    -0.03    -0.03    -0.04    -0.02
+ 3.2    -0.03    -0.03    -0.03    -0.03    -0.03
+ 3.3    -0.03    -0.03    -0.03    -0.02    -0.03
+ 3.4    -0.03    -0.03    -0.03    -0.02    -0.03
+ 3.5    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.6    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.7    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.8    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.9    -0.03    -0.02    -0.02    -0.00    -0.03
+ 4.0    -0.03    -0.02    -0.02    -0.00    -0.03
+ 4.1    -0.03    -0.02    -0.02    -0.00    -0.03
+ 4.2    -0.02    -0.02    -0.02    -0.00    -0.02
+ 4.3    -0.02    -0.02    -0.01    -0.00    -0.02
+ 4.4    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.5    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.6    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.7    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.8    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.9    -0.01    -0.01    -0.01    -0.00    -0.01
+ 5.0    -0.01    -0.01    -0.01    -0.00    -0.01
+
+
+
+EnergyTable:
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        N        OA        HD        A    
+ ___ ________ ________ ________ ________ ________
+ 0.0   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.1   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.2   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.3   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.4   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.5   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.6   1e+005   1e+005   1e+005 35735.60   1e+005
+ 0.7   1e+005   1e+005 70824.32  8666.11   1e+005
+ 0.8 75860.38 33010.17 21286.48  2359.92 75860.38
+ 0.9 25440.38 11064.86  7132.00   700.69 25440.38
+ 1.0  9340.64  4059.50  2614.83   220.94  9340.64
+ 1.1  3701.64  1606.95  1034.02    71.96  3701.64
+ 1.2  1565.60   678.54   435.97    23.32  1565.60
+ 1.3   700.28   302.80   194.14     7.01   700.28
+ 1.4   328.77   141.70    90.58     1.56   328.77
+ 1.5   160.97    69.07    43.97    -0.15   160.97
+ 1.6    81.75    34.86    22.06    -0.57    81.75
+ 1.7    42.84    18.12    11.38    -0.60    42.84
+ 1.8    23.07     9.65     6.00    -0.60    23.07
+ 1.9    12.71     5.24     3.21    -0.60    12.71
+ 2.0     7.14     2.88     1.73    -0.60     7.14
+ 2.1     4.06     1.59     0.93    -0.60     4.06
+ 2.2     2.34     0.88     0.49    -0.58     2.34
+ 2.3     1.35     0.48     0.25    -0.48     1.35
+ 2.4     0.78     0.25     0.11    -0.37     0.78
+ 2.5     0.44     0.12     0.04    -0.27     0.44
+ 2.6     0.24     0.05     0.00    -0.20     0.24
+ 2.7     0.12     0.01    -0.02    -0.14     0.12
+ 2.8     0.05    -0.01    -0.03    -0.10     0.05
+ 2.9     0.01    -0.02    -0.03    -0.07     0.01
+ 3.0    -0.01    -0.03    -0.03    -0.05    -0.01
+ 3.1    -0.02    -0.03    -0.03    -0.04    -0.02
+ 3.2    -0.03    -0.03    -0.03    -0.03    -0.03
+ 3.3    -0.03    -0.03    -0.03    -0.02    -0.03
+ 3.4    -0.03    -0.03    -0.03    -0.02    -0.03
+ 3.5    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.6    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.7    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.8    -0.03    -0.03    -0.03    -0.01    -0.03
+ 3.9    -0.03    -0.02    -0.02    -0.00    -0.03
+ 4.0    -0.03    -0.02    -0.02    -0.00    -0.03
+ 4.1    -0.03    -0.02    -0.02    -0.00    -0.03
+ 4.2    -0.02    -0.02    -0.02    -0.00    -0.02
+ 4.3    -0.02    -0.02    -0.01    -0.00    -0.02
+ 4.4    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.5    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.6    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.7    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.8    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.9    -0.01    -0.01    -0.01    -0.00    -0.01
+ 5.0    -0.01    -0.01    -0.01    -0.00    -0.01
+
+
+                8548.0            40.4 
+    E    =  -----------  -  -----------
+     Zn, C         12               6
+                r               r 
+
+Calculating energies for Zn-C interactions.
+
+                2800.7            23.5 
+    E    =  -----------  -  -----------
+     Zn, N         12               6
+                r               r 
+
+Calculating energies for Zn-N interactions.
+
+                1485.7            18.1 
+    E    =  -----------  -  -----------
+     Zn, OA         12               6
+                r               r 
+
+Calculating energies for Zn-OA interactions.
+
+                  13.4             1.0 
+    E    =  -----------  -  -----------
+     Zn, HD         12               6
+                r               r 
+
+Calculating energies for Zn-HD interactions.
+
+                8548.0            40.4 
+    E    =  -----------  -  -----------
+     Zn, A         12               6
+                r               r 
+
+Calculating energies for Zn-A interactions.
+
+
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        N        OA        HD        A    
+ ___ ________ ________ ________ ________ ________
+ 0.0   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.1   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.2   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.3   1e+005   1e+005   1e+005 17486.34   1e+005
+ 0.4   1e+005   1e+005   1e+005  2347.42   1e+005
+ 0.5   1e+005 88283.65 46799.35   418.39   1e+005
+ 0.6 59987.78 19627.31 10396.58    91.82 59987.78
+ 0.7 15764.13  5151.03  2724.76    23.53 15764.13
+ 0.8  4729.70  1541.99   813.76     6.75  4729.70
+ 0.9  1580.22   513.31   269.85     2.09  1580.22
+ 1.0   576.82   186.30    97.35     0.67   576.82
+ 1.1   226.60    72.55    37.55     0.21   226.60
+ 1.2    94.61    29.89    15.25     0.05    94.61
+ 1.3    41.54    12.87     6.42     0.00    41.54
+ 1.4    18.99     5.71     2.75    -0.01    18.99
+ 1.5     8.95     2.58     1.17    -0.02     8.95
+ 1.6     4.31     1.16     0.47    -0.02     4.31
+ 1.7     2.09     0.50     0.16    -0.02     2.09
+ 1.8     1.01     0.19     0.03    -0.02     1.01
+ 1.9     0.47     0.05    -0.03    -0.02     0.47
+ 2.0     0.20    -0.01    -0.05    -0.02     0.20
+ 2.1     0.06    -0.04    -0.06    -0.02     0.06
+ 2.2    -0.00    -0.05    -0.06    -0.01    -0.00
+ 2.3    -0.03    -0.05    -0.06    -0.01    -0.03
+ 2.4    -0.05    -0.05    -0.06    -0.01    -0.05
+ 2.5    -0.05    -0.05    -0.06    -0.01    -0.05
+ 2.6    -0.05    -0.05    -0.06    -0.01    -0.05
+ 2.7    -0.05    -0.05    -0.05    -0.00    -0.05
+ 2.8    -0.05    -0.05    -0.05    -0.00    -0.05
+ 2.9    -0.05    -0.04    -0.04    -0.00    -0.05
+ 3.0    -0.05    -0.04    -0.03    -0.00    -0.05
+ 3.1    -0.05    -0.03    -0.03    -0.00    -0.05
+ 3.2    -0.04    -0.03    -0.02    -0.00    -0.04
+ 3.3    -0.04    -0.02    -0.02    -0.00    -0.04
+ 3.4    -0.03    -0.02    -0.02    -0.00    -0.03
+ 3.5    -0.03    -0.02    -0.01    -0.00    -0.03
+ 3.6    -0.02    -0.02    -0.01    -0.00    -0.02
+ 3.7    -0.02    -0.01    -0.01    -0.00    -0.02
+ 3.8    -0.02    -0.01    -0.01    -0.00    -0.02
+ 3.9    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.0    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.1    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.2    -0.01    -0.01    -0.00    -0.00    -0.01
+ 4.3    -0.01    -0.01    -0.00    -0.00    -0.01
+ 4.4    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.5    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.6    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.7    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.8    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.9    -0.00    -0.00    -0.00    -0.00    -0.00
+ 5.0    -0.00    -0.00    -0.00    -0.00    -0.00
+
+
+
+EnergyTable:
+Finding the lowest pairwise interaction energy within 0.5 Angstrom ("smoothing").
+
+  r     C        N        OA        HD        A    
+ ___ ________ ________ ________ ________ ________
+ 0.0   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.1   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.2   1e+005   1e+005   1e+005   1e+005   1e+005
+ 0.3   1e+005   1e+005   1e+005 17486.34   1e+005
+ 0.4   1e+005   1e+005   1e+005  2347.42   1e+005
+ 0.5   1e+005 88283.65 46799.35   418.39   1e+005
+ 0.6 59987.78 19627.31 10396.58    91.82 59987.78
+ 0.7 15764.13  5151.03  2724.76    23.53 15764.13
+ 0.8  4729.70  1541.99   813.76     6.75  4729.70
+ 0.9  1580.22   513.31   269.85     2.09  1580.22
+ 1.0   576.82   186.30    97.35     0.67   576.82
+ 1.1   226.60    72.55    37.55     0.21   226.60
+ 1.2    94.61    29.89    15.25     0.05    94.61
+ 1.3    41.54    12.87     6.42     0.00    41.54
+ 1.4    18.99     5.71     2.75    -0.01    18.99
+ 1.5     8.95     2.58     1.17    -0.02     8.95
+ 1.6     4.31     1.16     0.47    -0.02     4.31
+ 1.7     2.09     0.50     0.16    -0.02     2.09
+ 1.8     1.01     0.19     0.03    -0.02     1.01
+ 1.9     0.47     0.05    -0.03    -0.02     0.47
+ 2.0     0.20    -0.01    -0.05    -0.02     0.20
+ 2.1     0.06    -0.04    -0.06    -0.02     0.06
+ 2.2    -0.00    -0.05    -0.06    -0.01    -0.00
+ 2.3    -0.03    -0.05    -0.06    -0.01    -0.03
+ 2.4    -0.05    -0.05    -0.06    -0.01    -0.05
+ 2.5    -0.05    -0.05    -0.06    -0.01    -0.05
+ 2.6    -0.05    -0.05    -0.06    -0.01    -0.05
+ 2.7    -0.05    -0.05    -0.05    -0.00    -0.05
+ 2.8    -0.05    -0.05    -0.05    -0.00    -0.05
+ 2.9    -0.05    -0.04    -0.04    -0.00    -0.05
+ 3.0    -0.05    -0.04    -0.03    -0.00    -0.05
+ 3.1    -0.05    -0.03    -0.03    -0.00    -0.05
+ 3.2    -0.04    -0.03    -0.02    -0.00    -0.04
+ 3.3    -0.04    -0.02    -0.02    -0.00    -0.04
+ 3.4    -0.03    -0.02    -0.02    -0.00    -0.03
+ 3.5    -0.03    -0.02    -0.01    -0.00    -0.03
+ 3.6    -0.02    -0.02    -0.01    -0.00    -0.02
+ 3.7    -0.02    -0.01    -0.01    -0.00    -0.02
+ 3.8    -0.02    -0.01    -0.01    -0.00    -0.02
+ 3.9    -0.02    -0.01    -0.01    -0.00    -0.02
+ 4.0    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.1    -0.01    -0.01    -0.01    -0.00    -0.01
+ 4.2    -0.01    -0.01    -0.00    -0.00    -0.01
+ 4.3    -0.01    -0.01    -0.00    -0.00    -0.01
+ 4.4    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.5    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.6    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.7    -0.01    -0.00    -0.00    -0.00    -0.01
+ 4.8    -0.00    -0.00    -0.00    -0.00    -0.00
+ 4.9    -0.00    -0.00    -0.00    -0.00    -0.00
+ 5.0    -0.00    -0.00    -0.00    -0.00    -0.00
+
+Beginning grid calculations.
+
+Calculating 4 grids over 489159 elements, around 78 receptor atoms.
+
+                    Percent   Estimated Time  Time/this plane
+XY-plane  Z-coord   Done      Remaining       Real, User, System
+            /Ang              /sec            /sec
+________  ________  ________  ______________  __________________________
+
+    -40    -30.000     1.2%            0.80s  Real= 0.01,  CPU= 0.00,  System= 0.01
+    -39    -29.625     2.5%            0.79s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -38    -29.250     3.7%            0.78s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -37    -28.875     4.9%            0.77s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -36    -28.500     6.2%            0.68s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -35    -28.125     7.4%            0.68s  Real= 0.01,  CPU= 0.00,  System= 0.02
+    -34    -27.750     8.6%            0.96s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -33    -27.375     9.9%            0.73s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -32    -27.000    11.1%            0.58s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -31    -26.625    12.3%            0.78s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -30    -26.250    13.6%            0.77s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -29    -25.875    14.8%            0.62s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -28    -25.500    16.0%            0.75s  Real= 0.01,  CPU= 0.00,  System= 0.01
+    -27    -25.125    17.3%            0.74s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -26    -24.750    18.5%            0.66s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -25    -24.375    19.8%            0.58s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -24    -24.000    21.0%            0.58s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -23    -23.625    22.2%            0.63s  Real= 0.01,  CPU= 0.00,  System= 0.02
+    -22    -23.250    23.5%            0.50s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -21    -22.875    24.7%            0.67s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -20    -22.500    25.9%            0.72s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -19    -22.125    27.2%            0.77s  Real= 0.01,  CPU= 0.00,  System= 0.00
+    -18    -21.750    28.4%            0.81s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -17    -21.375    29.6%            0.80s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -16    -21.000    30.9%            0.78s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -15    -20.625    32.1%            0.77s  Real= 0.01,  CPU= 0.01,  System= 0.00
+    -14    -20.250    33.3%            0.86s  Real= 0.02,  CPU= 0.02,  System= 0.00
+    -13    -19.875    34.6%            0.80s  Real= 0.01,  CPU= 0.02,  System= 0.00
+    -12    -19.500    35.8%            0.99s  Real= 0.02,  CPU= 0.01,  System= 0.00
+    -11    -19.125    37.0%            0.82s  Real= 0.02,  CPU= 0.02,  System= 0.00
+    -10    -18.750    38.3%            0.85s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     -9    -18.375    39.5%            0.83s  Real= 0.02,  CPU= 0.03,  System= 0.00
+     -8    -18.000    40.7%            0.86s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     -7    -17.625    42.0%            0.85s  Real= 0.02,  CPU= 0.02,  System= 0.00
+     -6    -17.250    43.2%            0.83s  Real= 0.02,  CPU= 0.02,  System= 0.00
+     -5    -16.875    44.4%            0.81s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     -4    -16.500    45.7%            0.84s  Real= 0.02,  CPU= 0.02,  System= 0.00
+     -3    -16.125    46.9%            0.82s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     -2    -15.750    48.1%            0.84s  Real= 0.02,  CPU= 0.03,  System= 0.00
+     -1    -15.375    49.4%            0.78s  Real= 0.02,  CPU= 0.00,  System= 0.02
+      0    -15.000    50.6%            0.76s  Real= 0.02,  CPU= 0.01,  System= 0.00
+      1    -14.625    51.9%            0.70s  Real= 0.02,  CPU= 0.02,  System= 0.00
+      2    -14.250    53.1%            0.72s  Real= 0.02,  CPU= 0.03,  System= 0.00
+      3    -13.875    54.3%            0.67s  Real= 0.02,  CPU= 0.02,  System= 0.00
+      4    -13.500    55.6%            0.72s  Real= 0.02,  CPU= 0.01,  System= 0.00
+      5    -13.125    56.8%            0.63s  Real= 0.02,  CPU= 0.02,  System= 0.00
+      6    -12.750    58.0%            0.61s  Real= 0.02,  CPU= 0.02,  System= 0.00
+      7    -12.375    59.3%            0.59s  Real= 0.02,  CPU= 0.03,  System= 0.00
+      8    -12.000    60.5%            0.58s  Real= 0.02,  CPU= 0.02,  System= 0.00
+      9    -11.625    61.7%            0.56s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     10    -11.250    63.0%            0.48s  Real= 0.02,  CPU= 0.02,  System= 0.00
+     11    -10.875    64.2%            0.52s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     12    -10.500    65.4%            0.45s  Real= 0.02,  CPU= 0.02,  System= 0.00
+     13    -10.125    66.7%            0.43s  Real= 0.02,  CPU= 0.00,  System= 0.00
+     14     -9.750    67.9%            0.42s  Real= 0.02,  CPU= 0.02,  System= 0.00
+     15     -9.375    69.1%            0.40s  Real= 0.02,  CPU= 0.01,  System= 0.00
+     16     -9.000    70.4%            0.36s  Real= 0.01,  CPU= 0.00,  System= 0.01
+     17     -8.625    71.6%            0.30s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     18     -8.250    72.8%            0.29s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     19     -7.875    74.1%            0.27s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     20     -7.500    75.3%            0.24s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     21     -7.125    76.5%            0.21s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     22     -6.750    77.8%            0.14s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     23     -6.375    79.0%            0.17s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     24     -6.000    80.2%            0.13s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     25     -5.625    81.5%            0.14s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     26     -5.250    82.7%            0.13s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     27     -4.875    84.0%            0.12s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     28     -4.500    85.2%            0.11s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     29     -4.125    86.4%            0.11s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     30     -3.750    87.7%            0.09s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     31     -3.375    88.9%            0.08s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     32     -3.000    90.1%            0.07s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     33     -2.625    91.4%            0.06s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     34     -2.250    92.6%            0.05s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     35     -1.875    93.8%            0.05s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     36     -1.500    95.1%            0.03s  Real= 0.01,  CPU= 0.01,  System= 0.00
+     37     -1.125    96.3%            0.03s  Real= 0.01,  CPU= 0.00,  System= 0.00
+     38     -0.750    97.5%            0.02s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     39     -0.375    98.8%            0.01s  Real= 0.01,  CPU= 0.02,  System= 0.00
+     40      0.000   100.0%            0.00s  Real= 0.01,  CPU= 0.00,  System= 0.00
+
+Grid	Atom	Minimum   	Maximum
+Map 	Type	Energy    	Energy 
+		(kcal/mol)	(kcal/mol)
+____	____	_____________	_____________
+ 1	 OA	   -0.75	2.02e+005
+ 2	 Zn	   -0.73	1.80e+005
+ 3	 e	  -26.29	1.32e+001	Electrostatic Potential
+ 4	 d	    0.00	9.87e-001	Desolvation Potential
+
+
+ * Note:  Every pairwise-atomic interaction was clamped at 100000.00
+
+
+D:\Programas\AutoDock4\4.2.6\autogrid4.exe: Successful Completion.
+Real= 1.20s,  CPU= 0.97s,  System= 0.09s

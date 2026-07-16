@@ -1,0 +1,17 @@
+npts 70 70 70
+gridfld O20V10.maps.fld
+spacing 0.375
+receptor_types Mn OA HD
+ligand_types N NA A HD C
+receptor O20V10.pdbqt
+gridcenter 1.673 5.197 0.000
+smooth 0.5
+map O20V10.N.map
+map O20V10.NA.map
+map O20V10.HD.map
+map O20V10.A.map
+map O20V10.C.map
+elecmap O20V10.e.map
+dsolvmap O20V10.d.map
+dielectric -0.1465
+parameter_file AD4_parameters.dat

@@ -1,0 +1,13 @@
+npts 53 53 53
+gridfld Hidrogel2_PAA.maps.fld
+spacing 0.375
+receptor_types C A N NA OA HD
+ligand_types OA Zn
+receptor Hidrogel2_PAA.pdbqt
+gridcenter -0.08 -0.07 -0.02
+smooth 0.5
+map Hidrogel2_PAA.OA.map
+map Hidrogel2_PAA.Zn.map
+elecmap Hidrogel2_PAA.e.map
+dsolvmap Hidrogel2_PAA.d.map
+dielectric -0.1465

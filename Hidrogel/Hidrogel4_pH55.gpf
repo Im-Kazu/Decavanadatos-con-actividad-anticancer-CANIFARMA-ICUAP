@@ -1,0 +1,13 @@
+npts 53 53 53 
+gridfld Hidrogel4_CMC_HA_pH55.maps.fld 
+spacing 0.375 
+receptor_types C N OA H HD 
+ligand_types OA Zn 
+receptor Hidrogel4_CMC_HA_pH55.pdbqt 
+gridcenter 0.06 0.07 0.00 
+smooth 0.5 
+map Hidrogel4_CMC_HA_pH55.OA.map 
+map Hidrogel4_CMC_HA_pH55.Zn.map 
+elecmap Hidrogel4_CMC_HA_pH55.e.map 
+dsolvmap Hidrogel4_CMC_HA_pH55.d.map 
+dielectric -0.1465

@@ -1,0 +1,42 @@
+# Archivo de parámetros de docking para benzimidazol_etilamina
+
+# Archivo de parámetros
+parameter_file AD4_parameters.dat
+
+# Tipos de átomos del ligando (DEBE IR ANTES DE LOS MAPAS)
+ligand_types A C HD N NA
+
+# Mapas de grid
+map O20V10.A.map
+map O20V10.C.map
+map O20V10.HD.map
+map O20V10.N.map
+map O20V10.NA.map
+elecmap O20V10.e.map
+dsolvmap O20V10.d.map
+
+# Archivo del ligando a mover
+move benzimidazol_etilamina.pdbqt
+
+# Centro de la caja de grid
+about 1.673 5.197 0.000
+
+# Parámetros de tolerancia RMS
+rmstol 2.0
+
+# Parámetros de búsqueda (Lamarckian Genetic Algorithm)
+set_ga
+ga_run 50
+ga_pop_size 300
+ga_num_generations 27000
+ga_num_evals 2550000
+ga_window_size 10
+ga_low_rlimit 10
+ga_elitism 1
+ga_mutate_rate 0.02
+ga_crossover_rate 0.8
+ga_cauchy_alpha 0.01
+ga_cauchy_beta 1.0
+
+# Parámetros de simulación
+simanneal on

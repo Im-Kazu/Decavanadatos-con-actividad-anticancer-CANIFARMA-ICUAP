@@ -1,0 +1,55 @@
+          AutoDock 4.2 Release 4.2.6   
+         (C) 1989-2012 The Scripps Research Institute
+        AutoDock comes with ABSOLUTELY NO WARRANTY.
+        AutoDock is free software, and you are welcome
+        to redistribute it under certain conditions;
+        for details type 'autodock4 -C'
+
+                     main.cc  $Revision: 1.213 $
+
+                   Compiled on Nov 25 2025 at 16:48:47
+
+
+This file was created at:			2:30 47" p.m., 07/02/2026
+                   on host:		"TerminalXolotl"
+Current Working Directory = "/mnt/d/Proyectos/Decavanatos/Autodock/Ligandos"
+
+      ________________________________________________________________
+
+                   SETTING UP DEFAULT PARAMETER LIBRARY
+      ________________________________________________________________
+
+
+Random number generator was seeded with values 2523, 1783024247.
+Docking parameter file (DPF) used for this docking:		benzimidazol_etilamina_dock.dpf
+DPF> # Archivo de parámetros de docking para benzimidazol_etilamina
+
+DPF> 
+
+DPF> # Archivo de parámetros
+
+DPF> parameter_file AD4_parameters.dat
+
+Using read_parameter_library() to try to open and read "AD4_parameters.dat".
+
+DPF> 
+
+DPF> # Tipos de átomos del ligando (DEBE IR ANTES DE LOS MAPAS)
+
+DPF> ligand_types A C HD N NA
+
+DPF> 
+
+DPF> # Mapas de grid
+
+DPF> map O20V10.A.map
+
+autodock4: WARNING: Filename mismatch: "O20V10.maps.fld" :: ""
+autodock4: WARNING: Filename mismatch: "O20V10.pdbqt" :: ""
+Wrong grid point spacing in grid-map file "O20V10.A.map".
+Use either 0.375 or 0.000 throughout!
+
+autodock4: FATAL ERROR: Using wrong grid-map file.
+
+autodock4: Unsuccessful Completion.
+

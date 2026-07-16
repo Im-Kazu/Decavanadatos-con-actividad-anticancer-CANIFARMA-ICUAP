@@ -1,0 +1,1572 @@
+AutoDock-GPU version: v1.6|Release|x64
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               O20V10.pdbqt
+Grid fld file:                             Hidrogel3_mellitic.maps.fld
+
+Random seed:                               1782270683, 14440
+Number of runs:                            20
+Number of energy evaluations:              1132076
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          D:\Programas\AutoDock-GPU.exe -M Hidrogel3_mellitic.maps.fld -L O20V10.pdbqt --nrun 20 --resnam O20V10_mellitic 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             Hidrogel3_mellitic
+Number of grid points (x, y, z):           53, 53, 53
+Grid center (x, y, z):                     0.010000, 0.030000, 0.060000A
+Grid size (x, y, z):                       19.500000, 19.500000, 19.500000A
+Grid spacing:                              0.375000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               O20V10
+Number of atoms:                           38
+Number of rotatable bonds:                 0
+Number of atom types:                      2
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 20
+DPF> fld Hidrogel3_mellitic.maps.fld
+DPF> move O20V10.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    308569
+Number of generations used:                50
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: ATOM      1 V1   LIG A   1       2.120   5.955  -3.319  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM      2 V2   LIG A   1       3.966   4.593  -1.245  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM      3 V3   LIG A   1       0.901   4.221  -1.074  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM      4 V4   LIG A   1       0.372   7.291  -1.140  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM      5 V5   LIG A   1       3.397   7.856  -1.286  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM      6 O1   LIG A   1       2.029   5.823  -4.915  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM      7 O2   LIG A   1       3.602   4.749  -2.929  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM      8 O3   LIG A   1       0.995   4.334  -2.749  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM      9 O4   LIG A   1       0.584   6.903  -2.897  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     10 O5   LIG A   1       3.208   7.363  -3.043  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     11 O6   LIG A   1       2.192   5.900  -1.004  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     12 O7   LIG A   1       3.752   4.833   0.786  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     13 O8   LIG A   1       2.623   3.315  -0.817  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     14 O9   LIG A   1       4.801   6.391  -1.210  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     15 O10  LIG A   1       1.760   8.548  -1.146  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     16 O11  LIG A   1       5.308   3.712  -1.169  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     17 O12  LIG A   1      -0.042   2.861  -0.685  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     18 O13  LIG A   1      -0.924   8.226  -1.114  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     19 O14  LIG A   1       4.350   9.136  -1.318  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     20 V6   LIG A   1       2.444   6.174   1.074  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM     21 O15  LIG A   1       2.351   6.061   2.749  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     22 V7   LIG A   1       1.225   4.439   3.319  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM     23 O16  LIG A   1       1.317   4.572   4.915  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     24 O17  LIG A   1      -0.257   5.646   2.929  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     25 V8   LIG A   1      -0.621   5.802   1.245  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM     26 O18  LIG A   1       1.154   4.495   1.004  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     27 O19  LIG A   1       2.761   3.492   2.897  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     28 V9   LIG A   1       2.973   3.104   1.140  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM     29 V10  LIG A   1      -0.052   2.539   1.286  1.00  0.00    +1.500 Zn
+INPUT-LIGAND-PDBQT: ATOM     30 O20  LIG A   1       0.138   3.032   3.043  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     31 O21  LIG A   1      -1.456   4.004   1.210  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     32 O22  LIG A   1      -0.407   5.562  -0.786  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     33 O23  LIG A   1       1.586   1.847   1.146  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     34 O24  LIG A   1       4.269   2.169   1.114  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     35 O25  LIG A   1      -1.004   1.259   1.318  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     36 O26  LIG A   1       0.722   7.080   0.817  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ATOM     37 O27  LIG A   1      -1.962   6.682   1.169  1.00  0.00    -0.800 OA
+INPUT-LIGAND-PDBQT: ATOM     38 O28  LIG A   1       3.387   7.533   0.685  1.00  0.00    -0.750 OA
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: TORSDOF 0
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.44 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.44 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.41 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.03 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.44 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -8.575   5.137  -8.549 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -7.823   7.176  -6.348 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -5.742   6.362  -8.486 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -6.143   3.321  -7.939 +0.02 -0.01    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -8.222   3.942  -5.752 +0.07 -0.02    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -9.707   5.165  -9.686 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -8.918   6.830  -7.642 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -7.100   6.230  -9.469 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -7.525   3.694  -9.049 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -9.337   4.259  -7.174 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -6.844   5.303  -7.019 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -6.198   6.949  -5.108 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -6.398   7.863  -7.405 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -8.699   5.832  -5.183 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -7.269   2.686  -6.584 +0.03 +0.01    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -8.390   8.502  -5.640 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -4.573   7.276  -9.315 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -5.538   1.966  -8.532 +0.01 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -9.108   3.119  -4.710 +0.03 +0.02    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -5.475   5.224  -5.414 +0.06 -0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -4.117   5.356  -4.430 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -2.641   6.450  -5.352 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -1.511   6.422  -4.214 +0.02 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -2.299   4.757  -6.258 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -3.394   4.411  -7.552 +0.01 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -4.373   6.284  -6.881 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -3.691   7.892  -4.851 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -5.074   8.265  -5.961 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -2.995   7.645  -8.148 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -1.880   7.327  -6.726 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -2.518   5.755  -8.717 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -5.019   4.637  -8.792 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -3.948   8.901  -7.315 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -5.679   9.620  -5.368 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -2.109   8.468  -9.190 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -4.819   3.723  -6.495 +0.03 +0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -2.827   3.086  -8.260 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -6.644   4.311  -4.585 +0.04 +0.01    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   2 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        2
+DOCKED: USER    Run = 2
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.19 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.19 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.47 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.28 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.19 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       3.244  -8.475  -3.479 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       2.721  -8.257  -6.519 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       5.534  -7.658  -5.383 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       4.426  -5.618  -3.305 +0.19 +0.03    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       1.554  -6.066  -4.326 +0.14 +0.01    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       3.115  -9.707  -2.460 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       2.662  -9.306  -5.145 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       5.110  -8.834  -4.258 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       4.141  -7.202  -2.473 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       1.661  -7.625  -3.364 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       3.607  -6.832  -5.072 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       3.129  -6.567  -7.617 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       4.575  -8.450  -6.902 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       1.115  -7.275  -5.898 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       2.616  -5.140  -3.234 +0.05 +0.01    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       2.040  -9.078  -7.722 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       7.083  -8.025  -5.978 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       5.057  -4.699  -2.159 +0.02 -0.01    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       0.097  -5.492  -4.018 +0.06 -0.02    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       3.611  -5.194  -6.403 +0.08 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       4.034  -4.018  -7.528 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       5.901  -4.377  -8.307 +0.04 +0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       6.029  -3.145  -9.326 +0.01 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       6.482  -3.546  -6.641 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       6.424  -4.594  -5.266 +0.14 +0.09    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       5.537  -6.020  -6.715 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       5.004  -5.649  -9.313 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       4.719  -7.233  -8.481 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       7.591  -6.785  -7.460 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       7.483  -5.227  -8.423 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       8.030  -5.577  -5.888 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       6.016  -6.285  -4.169 +0.03 -0.03    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       6.528  -7.711  -8.552 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       4.087  -8.152  -9.626 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       9.047  -7.360  -7.769 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       4.570  -4.402  -4.884 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       7.104  -3.775  -4.065 -0.58 -0.32    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       2.062  -4.827  -5.808 +0.04 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   3 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        3
+DOCKED: USER    Run = 3
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.32 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.32 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.32 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.00 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.32 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -8.572   8.596  -4.834 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -5.704   8.212  -3.741 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -6.199   8.330  -6.791 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -8.386   6.114  -6.676 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -8.011   5.837  -3.630 +0.07 -0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -9.641   9.776  -4.633 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -7.099   9.236  -3.728 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -7.431   9.385  -6.349 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -9.318   7.594  -6.203 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -8.987   7.389  -3.564 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -6.878   7.066  -5.232 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -4.483   6.654  -4.299 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -4.947   8.843  -5.369 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -6.614   6.879  -2.589 +0.02 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -8.819   5.213  -5.092 +0.02 +0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -4.704   8.824  -2.643 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -5.304   9.052  -8.043 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -9.337   5.393  -7.739 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -8.598   4.931  -2.455 +0.04 -0.01    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -5.516   5.458  -5.344 +0.05 -0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -4.284   4.402  -5.786 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -3.142   5.192  -7.302 +0.01 +0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -2.074   4.012  -7.501 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -4.616   4.551  -8.408 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -6.010   5.575  -8.395 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -4.836   6.721  -6.903 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -2.397   6.193  -5.932 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -3.328   7.674  -5.460 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -3.704   7.951  -8.505 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -2.728   6.398  -8.571 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -5.101   6.909  -9.547 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -7.231   7.133  -7.837 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -2.896   8.575  -7.043 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -2.377   8.394  -4.397 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -3.116   8.856  -9.680 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -6.767   4.945  -6.767 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -7.010   4.964  -9.492 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -6.410   4.736  -4.092 +0.04 +0.01    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   4 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        4
+DOCKED: USER    Run = 4
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.22 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.22 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.21 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.22 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -8.426   4.732  -6.389 +0.03 -0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -6.239   4.587  -8.570 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -5.535   5.594  -5.732 +0.03 -0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -7.830   7.702  -5.746 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -8.658   6.850  -8.588 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -9.359   3.601  -5.737 +0.02 +0.01    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -7.417   3.681  -7.685 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -6.722   4.498  -5.266 +0.03 +0.01    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -8.706   6.187  -5.275 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -9.415   5.416  -7.729 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -6.882   6.237  -7.236 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -5.072   6.193  -9.107 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -4.863   4.556  -7.256 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -7.652   5.450  -9.661 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -8.919   7.988  -7.241 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -5.665   3.583  -9.686 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -4.164   5.336  -4.761 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -8.382   8.792  -4.717 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -9.737   7.294  -9.677 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -5.758   7.725  -8.226 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -4.571   8.820  -8.692 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -2.866   8.586  -7.569 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -1.934   9.716  -8.222 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -3.875   9.637  -6.273 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -5.054   8.731  -5.388 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -4.411   7.081  -6.722 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -2.587   7.131  -8.683 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -3.463   5.617  -8.212 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -2.635   6.468  -5.370 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -1.878   7.902  -6.230 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -3.641   7.868  -4.297 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -6.221   7.125  -4.851 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -2.374   5.329  -6.717 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -2.910   4.526  -9.241 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -1.556   6.024  -4.282 +0.02 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -6.430   8.762  -6.701 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -5.628   9.734  -4.273 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -7.128   7.981  -9.197 +0.00 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   5 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        5
+DOCKED: USER    Run = 5
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.08 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.08 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.22 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.29 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.08 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       1.636  -6.912  -6.109 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       4.238  -8.493  -5.567 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       4.282  -5.402  -5.605 +0.10 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       2.912  -5.266  -8.401 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       2.808  -8.341  -8.551 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       0.235  -6.865  -5.330 +0.02 -0.01    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       2.615  -8.215  -5.038 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       2.724  -5.571  -4.996 +0.04 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       1.496  -5.493  -7.293 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       1.401  -8.157  -7.388 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       3.765  -6.890  -7.023 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       5.963  -8.236  -6.656 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       5.037  -6.985  -4.725 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       3.602  -9.546  -7.122 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       2.509  -6.800  -9.396 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       4.786  -9.710  -4.671 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       5.113  -4.281  -4.634 -0.01 -0.04    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       2.439  -4.098  -9.383 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       2.334  -9.448  -9.599 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       5.559  -7.097  -8.116 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       7.117  -6.928  -8.725 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       8.205  -5.586  -7.611 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       9.606  -5.635  -8.391 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       7.226  -4.284  -8.683 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       5.603  -4.005  -8.154 +0.05 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       6.076  -5.609  -6.698 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       8.345  -7.006  -6.428 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       6.929  -7.233  -5.320 +0.03 +0.02    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       7.033  -4.157  -5.170 +0.15 +0.13    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       8.440  -4.342  -6.333 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       6.240  -2.953  -6.599 +0.01 +0.01    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       3.878  -4.263  -7.065 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       7.332  -5.699  -4.325 +0.02 -0.05    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       7.402  -8.401  -4.338 +0.01 -0.01    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       7.507  -3.051  -4.122 -0.42 -0.33    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       4.804  -5.513  -8.996 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       5.056  -2.789  -9.049 +0.02 +0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       4.728  -8.217  -9.086 +0.00 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   6 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        6
+DOCKED: USER    Run = 6
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.24 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.19 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.05 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.24 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       6.677  -6.228   5.769 +0.01 -0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       5.002  -8.585   4.672 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       3.596  -6.036   5.713 +0.01 -0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       5.107  -6.130   8.436 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       6.584  -8.695   7.581 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       7.800  -5.309   5.085 +0.02 +0.01    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       6.251  -7.446   4.306 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       4.975  -5.276   5.123 +0.02 +0.01    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       6.322  -5.334   7.353 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       7.602  -7.543   6.579 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       4.895  -7.466   6.582 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       3.497  -9.493   5.739 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       3.517  -7.442   4.346 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       6.232  -9.638   5.817 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       6.273  -7.524   8.889 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       4.942  -9.585   3.415 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       2.237  -5.192   5.136 +0.02 +0.01    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       5.134  -5.231   9.757 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       7.629  -9.715   8.224 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       3.536  -8.794   7.501 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       2.156  -9.554   8.090 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       0.454  -8.601   7.444 +0.00 -0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -0.668  -9.522   8.128 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       0.881  -7.384   8.907 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       2.129  -6.244   8.541 +0.00 -0.01    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       2.236  -7.365   6.631 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       0.809  -9.496   5.860 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       2.024  -8.700   4.777 +0.00 -0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       0.548  -6.135   5.632 +0.04 -0.02    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -0.470  -7.287   6.634 +0.00 +0.01    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       0.899  -5.192   7.396 +0.01 +0.01    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       3.635  -5.337   7.474 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       0.859  -7.307   4.324 +0.01 +0.01    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       1.998  -9.598   3.456 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -0.497  -5.115   4.989 +0.04 +0.03    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       3.614  -7.388   8.868 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       2.189  -5.245   9.797 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       4.894  -9.637   8.076 +0.00 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   7 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        7
+DOCKED: USER    Run = 7
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.26 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.26 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.24 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.26 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -6.880   5.808  -5.945 +0.02 -0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -5.401   4.738  -8.442 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -3.797   5.641  -5.958 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -5.212   8.416  -5.864 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -6.881   7.700  -8.353 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -7.964   5.131  -4.976 +0.02 +0.01    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -6.586   4.375  -7.235 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -5.144   5.073  -5.128 +0.03 +0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -6.411   7.348  -5.025 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -7.858   6.694  -7.170 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -5.154   6.603  -7.270 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -3.920   5.784  -9.411 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -3.858   4.322  -7.409 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -6.655   5.959  -9.373 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -6.448   8.955  -7.163 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -5.451   3.515  -9.483 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -2.408   4.991  -5.224 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -5.133   9.705  -4.923 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -7.966   8.413  -9.281 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -3.850   7.521  -8.655 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -2.503   8.089  -9.485 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -0.767   7.353  -8.667 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       0.317   8.030  -9.637 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -1.061   8.787  -7.378 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -2.246   8.424  -6.170 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -2.494   6.558  -7.343 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -1.236   5.814  -9.587 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -2.435   4.746  -8.748 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -0.766   5.462  -6.259 +0.04 -0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       0.210   6.467  -7.443 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -0.992   7.203  -5.239 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -3.727   7.378  -5.201 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -1.199   4.206  -7.450 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -2.514   3.457  -9.689 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       0.319   4.748  -5.332 +0.04 +0.01    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -3.789   8.840  -7.203 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -2.196   9.646  -5.130 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -5.239   8.170  -9.388 +0.00 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   8 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        8
+DOCKED: USER    Run = 8
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.34 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.34 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.33 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.34 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -1.900   6.028  -8.614 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -3.124   5.014  -5.961 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -4.959   5.694  -8.355 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -3.720   8.533  -8.694 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -1.831   8.044  -6.310 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -0.853   5.361  -9.629 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -2.013   4.652  -7.236 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -3.645   5.156  -9.257 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -2.525   7.488  -9.569 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -0.888   7.031  -7.514 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -3.567   6.798  -7.200 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -4.588   6.028  -4.933 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -4.713   4.460  -6.849 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -1.878   6.350  -5.190 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -2.424   9.208  -7.523 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -2.925   3.853  -4.867 +0.07 -0.01    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -6.358   4.930  -8.946 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -3.944   9.764  -9.688 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -0.724   8.864  -5.504 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -4.815   7.715  -5.766 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -6.128   8.252  -4.864 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -7.874   7.380  -5.507 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -8.920   8.048  -4.491 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -7.761   8.757  -6.885 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -6.650   8.395  -8.160 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -6.207   6.611  -6.920 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -7.249   5.921  -4.552 +0.02 +0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -6.054   4.876  -5.427 +0.08 -0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -7.943   5.365  -7.811 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -8.886   6.378  -6.607 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -7.896   7.059  -8.931 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -5.186   7.381  -9.188 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -7.349   4.201  -6.597 +0.02 +0.01    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -5.830   3.645  -4.433 +0.05 +0.01    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -9.050   4.545  -8.616 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -5.061   8.949  -7.272 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -6.849   9.555  -9.253 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -3.417   8.478  -5.175 +0.00 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   9 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        9
+DOCKED: USER    Run = 9
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.22 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.22 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.10 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.33 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.22 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       7.503  -6.960  -6.974 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       5.513  -7.968  -4.832 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       4.613  -7.689  -7.777 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       5.586  -4.734  -7.954 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       6.520  -4.817  -5.019 +0.14 +0.11    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       8.911  -7.539  -7.479 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       7.043  -8.252  -5.589 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       6.212  -8.097  -8.096 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       7.119  -5.658  -8.237 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       7.937  -5.764  -5.699 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       5.367  -6.339  -6.328 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       3.679  -7.101  -4.499 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       4.423  -8.785  -6.160 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       6.247  -6.431  -3.817 +0.03 -0.03    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       6.290  -3.820  -6.479 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       5.422  -9.023  -3.623 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       3.612  -8.669  -8.740 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       5.611  -3.607  -9.087 +0.01 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       7.167  -3.808  -3.966 -0.56 -0.35    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       3.594  -5.514  -5.532 +0.10 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       1.995  -5.106  -5.212 +0.05 +0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       0.703  -6.244  -6.335 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -0.704  -5.663  -5.829 +0.03 -0.02    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       1.164  -4.950  -7.721 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       2.694  -5.235  -8.477 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       2.840  -6.864  -6.980 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       1.088  -7.544  -5.072 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       2.621  -8.468  -5.355 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       1.687  -8.385  -8.290 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       0.270  -7.438  -7.609 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       1.960  -6.771  -9.492 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       4.528  -6.101  -8.810 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       1.917  -9.383  -6.829 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       2.596  -9.595  -4.222 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       1.040  -9.395  -9.342 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       3.784  -4.417  -7.149 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       2.785  -4.181  -9.685 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       4.595  -4.534  -4.569 +0.01 -0.02    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   10 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        10
+DOCKED: USER    Run = 10
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.21 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.21 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.37 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.16 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.21 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       7.367  -5.344  -8.332 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       5.677  -7.914  -8.653 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       4.315  -5.248  -7.878 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       6.265  -4.769  -5.496 +0.13 +0.07    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       7.729  -7.411  -6.102 +0.02 +0.02    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       8.301  -4.545  -9.363 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       6.775  -6.834  -9.442 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       5.527  -4.582  -8.833 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       7.231  -4.167  -6.906 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       8.493  -6.450  -7.466 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       5.826  -6.446  -6.999 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       4.430  -8.635  -7.186 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       4.092  -6.896  -8.921 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       7.144  -8.689  -7.567 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       7.572  -6.016  -5.003 +0.02 -0.03    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       5.467  -9.141  -9.670 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       2.830  -4.570  -8.353 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       6.459  -3.629  -4.392 -0.38 -0.21    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       8.927  -8.258  -5.474 +0.00 -0.01    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       4.723  -7.605  -5.622 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       3.511  -8.273  -4.667 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       1.669  -7.510  -5.169 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       0.737  -8.309  -4.137 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       2.262  -6.020  -4.058 +0.04 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       3.360  -4.940  -4.847 +0.18 -0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       3.212  -6.409  -6.501 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       1.806  -8.687  -6.594 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       2.772  -8.085  -8.004 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       1.308  -5.443  -7.398 +0.03 +0.01    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       0.545  -6.405  -6.035 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       1.893  -4.165  -5.933 +0.05 +0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       4.607  -4.218  -6.314 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       1.465  -6.839  -8.497 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       2.578  -9.225  -9.108 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       0.110  -4.597  -8.026 +0.01 -0.01    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       4.945  -5.958  -4.579 +0.03 -0.02    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       3.570  -3.714  -3.831 -0.01 +0.05    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       6.207  -8.284  -5.148 +0.01 -0.01    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   11 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        11
+DOCKED: USER    Run = 11
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.33 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.33 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.31 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.33 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -2.481   6.051  -8.591 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -3.655   5.059  -5.907 +0.04 +0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -5.534   5.716  -8.274 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -4.304   8.553  -8.661 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -2.373   8.087  -6.306 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -1.451   5.376  -9.619 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -2.567   4.687  -7.199 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -4.236   5.172  -9.194 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -3.125   7.502  -9.548 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -1.449   7.065  -7.518 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -4.122   6.831  -7.154 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -5.101   6.081  -4.862 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -5.259   4.495  -6.762 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -2.397   6.404  -5.171 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -2.989   9.240  -7.519 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -3.435   3.909  -4.807 +0.06 -0.01    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -6.942   4.945  -8.833 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -4.548   9.775  -9.662 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -1.252   8.916  -5.529 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -5.346   7.760  -5.706 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -6.643   8.304  -4.785 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -8.399   7.424  -5.389 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -9.428   8.100  -4.361 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -8.313   8.789  -6.781 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -7.224   8.417  -8.073 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -6.757   6.644  -6.825 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -7.755   5.974  -4.432 +0.02 +0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -6.575   4.923  -5.319 +0.07 -0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -8.507   5.389  -7.674 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -9.429   6.411  -6.462 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -8.482   7.072  -8.809 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -5.778   7.395  -9.118 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -7.890   4.236  -6.460 +0.02 +0.01    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -6.332   3.701  -4.318 +0.05 +0.02    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -9.627   4.560  -8.451 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -5.621   8.981  -7.219 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -7.444   9.566  -9.172 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -3.938   8.530  -5.147 +0.00 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   12 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        12
+DOCKED: USER    Run = 12
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.04 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.04 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.32 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.28 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.04 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       0.736  -8.553  -6.670 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       1.935  -5.946  -7.823 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       3.789  -8.101  -6.606 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       2.170  -8.211  -3.947 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       0.235  -6.048  -4.982 +0.10 +0.02    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -0.140  -9.714  -7.346 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       0.967  -7.336  -8.176 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       2.625  -9.155  -7.206 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       1.195  -9.287  -5.031 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -0.477  -7.427  -5.960 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       2.184  -6.938  -5.856 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       3.171  -4.701  -6.750 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       3.638  -6.767  -8.038 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       0.463  -5.127  -6.777 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       0.722  -7.073  -3.607 +0.03 -0.01    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       1.844  -5.009  -9.125 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       5.318  -8.666  -7.091 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       2.269  -9.039  -2.584 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -1.027  -5.242  -4.428 +0.05 -0.05    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       3.197  -5.319  -4.958 +0.14 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       4.361  -4.263  -4.359 -0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       6.251  -4.867  -4.895 +0.14 +0.11    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       7.126  -3.705  -4.219 -0.58 -0.28    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       6.020  -6.084  -3.389 +0.03 -0.03    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       5.052  -7.473  -3.742 +0.05 +0.02    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       4.802  -6.481  -5.709 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       5.791  -4.133  -6.534 +0.03 -0.01    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       4.817  -5.209  -7.618 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       6.751  -7.372  -6.583 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       7.463  -5.992  -5.605 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       6.523  -8.293  -4.788 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       3.816  -8.718  -4.815 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       6.264  -6.346  -7.958 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       4.717  -4.380  -8.981 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       8.013  -8.177  -7.137 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       3.349  -6.652  -3.526 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       5.143  -8.410  -2.440 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       1.669  -4.754  -4.474 +0.05 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   13 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        13
+DOCKED: USER    Run = 13
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.16 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.16 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.44 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.28 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.16 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       0.634  -6.923  -8.322 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       1.168  -4.133  -7.100 +0.09 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       3.471  -5.708  -8.433 +0.01 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       2.926  -8.252  -6.718 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       0.613  -6.831  -5.261 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -0.349  -7.404  -9.495 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       0.230  -5.017  -8.254 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       2.240  -6.275  -9.428 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       1.699  -8.415  -8.042 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -0.312  -7.167  -6.810 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       2.171  -6.087  -6.803 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       2.623  -3.777  -5.692 +0.04 +0.01    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       2.729  -3.911  -8.166 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       0.121  -4.890  -5.597 +0.05 -0.01    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       1.626  -8.294  -5.371 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       0.554  -2.647  -7.086 +0.05 -0.01    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       4.756  -5.193  -9.419 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       3.562  -9.715  -6.613 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -0.415  -7.167  -4.087 +0.03 -0.01    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       3.332  -5.452  -5.158 +0.12 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       4.562  -4.884  -4.163 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       6.168  -4.236  -5.270 +0.16 +0.09    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       7.151  -3.756  -4.096 -0.59 -0.31    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       6.573  -6.143  -5.337 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       5.635  -7.027  -6.491 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       4.631  -5.072  -6.788 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       5.104  -2.745  -5.549 -0.02 +0.03    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       3.877  -2.908  -6.873 +0.14 -0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       6.190  -4.329  -8.330 +0.04 +0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       7.114  -3.993  -6.781 +0.03 -0.01    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       6.682  -6.270  -7.994 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       4.179  -7.383  -7.899 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       5.176  -2.865  -8.220 +0.02 +0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       3.241  -1.445  -6.978 +0.03 -0.02    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       7.217  -3.992  -9.503 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       4.074  -7.249  -5.426 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       6.248  -8.511  -6.505 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       2.047  -5.966  -4.173 +0.05 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   14 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        14
+DOCKED: USER    Run = 14
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.25 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.24 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.00 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.25 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -8.415   8.730  -5.930 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -6.903   6.337  -4.683 +0.03 -0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -5.361   8.890  -5.502 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -6.536   8.857  -8.388 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -8.125   6.293  -7.762 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -9.604   9.649  -5.369 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -8.177   7.484  -4.449 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -6.795   9.654  -5.068 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -7.866   9.647  -7.444 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -9.246   7.438  -6.869 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -6.559   7.488  -6.546 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -5.288   5.433  -5.578 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -5.458   7.460  -4.161 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -7.995   5.317  -5.986 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -7.650   7.483  -9.002 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -7.002   5.316  -3.446 +0.04 +0.01    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -4.075   9.710  -4.752 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -6.396   9.778  -9.687 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -9.094   5.295  -8.544 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -5.109   6.162  -7.319 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -3.676   5.397  -7.752 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -2.055   6.322  -6.890 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -0.867   5.402  -7.451 +0.01 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -2.294   7.568  -8.372 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -3.568   8.714  -8.137 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -3.912   7.563  -6.274 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -2.605   5.405  -5.377 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -3.935   6.195  -4.433 +0.04 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -2.346   8.759  -5.059 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -1.225   7.613  -5.952 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -2.475   9.735  -6.835 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -5.183   9.619  -7.242 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -2.821   7.568  -3.819 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -4.074   5.274  -3.134 +0.07 -0.01    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -1.377   9.756  -4.277 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -5.012   7.592  -8.660 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -3.468   9.735  -9.373 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -6.396   5.342  -8.068 +0.00 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   15 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        15
+DOCKED: USER    Run = 15
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.22 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.22 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.03 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.25 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.22 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       2.483  -5.548  -7.836 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       4.119  -4.839  -5.309 +0.15 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       5.568  -5.638  -7.921 +0.03 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       3.919  -8.265  -8.212 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       2.390  -7.648  -5.610 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       1.433  -4.697  -8.700 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       2.935  -4.269  -6.434 +0.03 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       4.251  -4.886  -8.646 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       2.792  -7.029  -8.907 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       1.469  -6.460  -6.661 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       4.172  -6.602  -6.651 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       5.533  -6.089  -4.492 +0.03 -0.02    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       5.662  -4.458  -6.355 +0.03 -0.01    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       2.793  -6.034  -4.446 +0.04 -0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       2.679  -8.819  -6.923 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       4.204  -3.718  -4.160 -0.03 +0.01    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       6.986  -5.039  -8.643 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       3.861  -9.464  -9.267 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       1.275  -8.353  -4.711 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       5.432  -7.748  -5.403 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       6.749  -8.500  -4.678 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       8.518  -7.837  -5.488 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       9.567  -8.688  -4.624 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       8.065  -9.116  -6.890 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       6.881  -8.546  -8.016 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       6.828  -6.783  -6.672 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       8.208  -6.357  -4.417 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       7.081  -5.120  -5.112 +0.12 +0.09    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       8.611  -5.737  -7.715 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       9.531  -6.925  -6.662 +0.00 -0.01    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       8.208  -7.351  -8.879 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       5.468  -7.296  -8.832 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       8.321  -4.566  -6.401 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       7.140  -3.921  -4.057 -0.58 -0.28    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       9.725  -5.033  -8.613 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       5.339  -8.928  -6.969 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       6.797  -9.666  -9.163 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       4.015  -8.346  -4.681 +0.01 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   16 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        16
+DOCKED: USER    Run = 16
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.25 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.17 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.42 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.25 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       7.676  -6.900  -6.745 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       5.681  -7.942  -4.624 +0.02 +0.02    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       4.820  -7.718  -7.586 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       5.713  -4.739  -7.779 +0.05 +0.01    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       6.602  -4.766  -4.829 +0.15 +0.13    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       9.107  -7.445  -7.221 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       7.229  -8.191  -5.353 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       6.435  -8.084  -7.875 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       7.276  -5.623  -8.027 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       8.055  -5.680  -5.477 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       5.513  -6.333  -6.140 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       3.817  -7.123  -4.330 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       4.635  -8.802  -5.960 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       6.355  -6.374  -3.614 +0.03 -0.03    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       6.368  -3.791  -6.303 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       5.599  -8.986  -3.406 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       3.862  -8.736  -8.554 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       5.725  -3.624  -8.923 +0.02 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       7.204  -3.728  -3.777 -0.51 -0.46    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       3.705  -5.550  -5.380 +0.10 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       2.090  -5.183  -5.090 +0.04 +0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       0.849  -6.368  -6.221 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -0.582  -5.823  -5.744 +0.03 -0.02    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       1.296  -5.077  -7.613 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       2.845  -5.326  -8.342 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       3.013  -6.935  -6.825 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       1.250  -7.645  -4.938 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       2.812  -8.528  -5.187 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       1.923  -8.501  -8.137 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       0.470  -7.588  -7.488 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       2.170  -6.893  -9.352 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       4.708  -6.144  -8.636 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       2.158  -9.477  -6.662 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       2.800  -9.644  -4.043 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       1.321  -9.540  -9.188 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       3.890  -4.465  -7.005 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       2.926  -4.283  -9.559 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       4.663  -4.532  -4.412 +0.01 -0.02    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   17 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        17
+DOCKED: USER    Run = 17
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.24 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.22 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.24 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -7.825   7.287  -8.573 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -6.519   8.344  -5.977 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -4.764   7.664  -8.431 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -5.977   4.806  -8.697 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -7.783   5.294  -6.249 +0.02 -0.01    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -8.918   7.931  -9.555 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -7.680   8.678  -7.214 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -6.117   8.175  -9.288 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -7.216   5.826  -9.537 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -8.783   6.283  -7.427 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -6.098   6.554  -7.215 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -5.004   7.359  -4.994 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -4.971   8.910  -6.929 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -7.717   6.999  -5.148 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -7.219   4.126  -7.472 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -6.693   9.513  -4.888 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -3.398   8.440  -9.080 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -5.773   3.568  -9.687 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -8.849   4.468  -5.395 +0.02 +0.01    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -4.785   5.667  -5.819 +0.02 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -3.433   5.156  -4.960 +0.03 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -1.724   6.045  -5.676 +0.03 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -0.632   5.401  -4.693 +0.03 +0.01    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -1.869   4.653  -7.035 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -3.031   4.987  -8.273 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -3.452   6.778  -7.034 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -2.333   7.505  -4.712 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -3.573   8.525  -5.553 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -1.767   8.037  -8.001 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -0.767   7.049  -6.822 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -1.832   6.332  -9.101 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -4.545   5.972  -9.256 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -2.330   9.206  -6.777 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -3.776   9.763  -4.563 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -0.701   8.864  -8.853 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -4.578   4.421  -7.321 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -2.857   3.819  -9.361 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -6.151   4.892  -5.169 +0.03 +0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   18 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        18
+DOCKED: USER    Run = 18
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -0.19 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -0.19 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.09 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.27 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -0.19 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       0.549  -6.336  -6.001 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       2.501  -8.405  -4.788 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       3.484  -5.550  -5.452 +0.10 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       2.428  -5.703  -8.380 +0.01 +0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       1.407  -8.572  -7.910 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -0.825  -5.716  -5.452 +0.04 -0.02    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       1.005  -7.568  -4.560 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       1.908  -5.128  -5.045 +0.05 +0.00    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       0.933  -5.257  -7.458 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       0.041  -7.732  -7.018 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       2.645  -7.126  -6.593 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       4.298  -8.905  -5.654 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       3.656  -7.025  -4.170 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       1.691  -9.576  -6.168 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       1.652  -7.254  -9.086 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       2.587  -9.478  -3.594 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       4.543  -4.509  -4.624 +0.01 -0.02    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       2.405  -4.717  -9.637 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       0.697  -9.718  -8.765 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       4.367  -8.079  -7.358 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       5.942  -8.501  -7.765 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       7.302  -7.292  -6.809 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       8.675  -7.913  -7.358 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       6.846  -6.061  -8.251 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       5.349  -5.223  -8.023 +0.03 +0.01    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       5.205  -6.503  -6.218 +0.02 -0.01    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       6.917  -8.371  -5.352 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       5.422  -7.925  -4.431 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       6.444  -5.057  -4.901 +0.13 +0.10    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       7.809  -5.897  -5.792 +0.02 -0.02    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       6.160  -4.053  -6.643 +0.03 -0.01    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       3.553  -4.723  -7.156 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       6.198  -6.375  -3.724 +0.03 -0.03    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       5.446  -8.911  -3.173 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       7.153  -3.911  -4.046 -0.58 -0.29    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       4.194  -6.603  -8.641 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       5.264  -4.151  -9.215 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       3.308  -9.119  -8.185 +0.00 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   19 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        19
+DOCKED: USER    Run = 19
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.15 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.15 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.44 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.30 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.15 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1       8.062  -7.793  -5.338 +0.02 +0.02    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1       6.417  -5.234  -4.779 +0.13 +0.10    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1       4.987  -7.955  -5.116 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1       6.390  -8.527  -7.838 +0.00 +0.01    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1       7.883  -5.837  -7.688 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1       9.216  -8.524  -4.497 +0.00 -0.01    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1       7.686  -6.256  -4.198 +0.02 -0.03    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1       6.393  -8.554  -4.415 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1       7.651  -9.042  -6.644 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1       8.946  -6.716  -6.478 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1       6.242  -6.782  -6.356 +0.01 -0.01    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1       4.865  -4.607  -5.973 +0.03 -0.01    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1       4.953  -6.260  -4.127 +0.03 -0.02    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1       7.595  -4.494  -6.192 +0.03 -0.02    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1       7.528  -7.288  -8.660 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1       6.400  -3.960  -3.799 -0.27 -0.35    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1       3.657  -8.630  -4.300 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1       6.370  -9.719  -8.903 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1       8.896  -5.006  -8.599 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1       4.840  -5.711  -7.514 +0.04 +0.01    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1       3.434  -5.111  -8.214 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1       1.764  -5.873  -7.290 +0.02 +0.01    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1       0.611  -5.141  -8.132 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1       2.140  -7.410  -8.432 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1       3.409  -8.432  -7.850 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1       3.584  -6.883  -6.273 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1       2.175  -4.624  -5.985 +0.04 +0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1       3.437  -5.138  -4.791 +0.16 -0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1       1.944  -7.829  -4.942 +0.01 +0.01    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1       0.880  -6.949  -6.151 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1       2.231  -9.171  -6.438 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1       4.961  -9.059  -6.656 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1       2.298  -6.376  -3.969 +0.04 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1       3.456  -3.947  -3.726 +0.01 +0.04    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1       0.931  -8.659  -4.030 +0.01 -0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1       4.874  -7.406  -8.502 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1       3.426  -9.705  -8.829 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1       6.169  -5.036  -8.329 +0.01 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   20 / 20
+Time taken for this run:   0.011s
+
+DOCKED: MODEL        20
+DOCKED: USER    Run = 20
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  +0.36 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  +0.36 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  +0.34 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.02 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  +0.36 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  +0.00 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.00 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  +0.00 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1 V1   LIG A   1      -5.699   6.221  -2.959 +0.10 -0.00    +1.500 Zn 
+DOCKED: ATOM      2 V2   LIG A   1      -6.323   6.094  -5.986 +0.01 -0.00    +1.500 Zn 
+DOCKED: ATOM      3 V3   LIG A   1      -3.390   6.145  -5.008 +0.03 +0.00    +1.500 Zn 
+DOCKED: ATOM      4 V4   LIG A   1      -3.854   8.689  -3.269 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM      5 V5   LIG A   1      -6.801   8.815  -4.157 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM      6 O1   LIG A   1      -6.066   5.230  -1.752 +0.06 +0.01    -0.800 OA 
+DOCKED: ATOM      7 O2   LIG A   1      -6.557   5.316  -4.459 +0.03 +0.00    -0.750 OA 
+DOCKED: ATOM      8 O3   LIG A   1      -4.022   5.296  -3.701 +0.05 -0.01    -0.750 OA 
+DOCKED: ATOM      9 O4   LIG A   1      -4.467   7.371  -2.187 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     10 O5   LIG A   1      -7.020   7.445  -2.957 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     11 O6   LIG A   1      -5.039   7.460  -4.803 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     12 O7   LIG A   1      -5.581   7.443  -7.349 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     13 O8   LIG A   1      -4.595   5.393  -6.362 +0.01 -0.00    -0.750 OA 
+DOCKED: ATOM     14 O9   LIG A   1      -7.607   7.527  -5.505 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     15 O10  LIG A   1      -5.487   9.605  -3.247 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     16 O11  LIG A   1      -7.248   5.294  -7.029 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     17 O12  LIG A   1      -2.011   5.319  -5.561 +0.02 -0.00    -0.750 OA 
+DOCKED: ATOM     18 O13  LIG A   1      -2.956   9.586  -2.298 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     19 O14  LIG A   1      -8.056   9.773  -3.922 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     20 V6   LIG A   1      -4.713   8.823  -6.381 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     21 O15  LIG A   1      -4.083   9.671  -7.689 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     22 V7   LIG A   1      -2.404   8.746  -8.430 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     23 O16  LIG A   1      -2.039   9.737  -9.637 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     24 O17  LIG A   1      -1.547   9.652  -6.931 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     25 V8   LIG A   1      -1.780   8.873  -5.404 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     26 O18  LIG A   1      -3.065   7.508  -6.587 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     27 O19  LIG A   1      -3.637   7.597  -9.202 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     28 V9   LIG A   1      -4.250   6.279  -8.120 +0.00 +0.00    +1.500 Zn 
+DOCKED: ATOM     29 V10  LIG A   1      -1.302   6.153  -7.232 +0.00 -0.00    +1.500 Zn 
+DOCKED: ATOM     30 O20  LIG A   1      -1.084   7.523  -8.433 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     31 O21  LIG A   1      -0.497   7.441  -5.884 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     32 O22  LIG A   1      -2.523   7.525  -4.041 +0.01 +0.00    -0.750 OA 
+DOCKED: ATOM     33 O23  LIG A   1      -2.617   5.363  -8.142 +0.00 -0.00    -0.750 OA 
+DOCKED: ATOM     34 O24  LIG A   1      -5.148   5.382  -9.091 +0.00 -0.00    -0.800 OA 
+DOCKED: ATOM     35 O25  LIG A   1      -0.048   5.195  -7.468 +0.01 +0.00    -0.800 OA 
+DOCKED: ATOM     36 O26  LIG A   1      -3.508   9.575  -5.027 +0.00 +0.00    -0.750 OA 
+DOCKED: ATOM     37 O27  LIG A   1      -0.856   9.673  -4.362 +0.00 +0.00    -0.800 OA 
+DOCKED: ATOM     38 O28  LIG A   1      -6.092   9.648  -5.828 +0.00 -0.00    -0.750 OA 
+DOCKED: ENDROOT
+DOCKED: TORSDOF 0
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -0.25 |  16 |     -0.02 |  10 |##########
+   2 |     +0.22 |   4 |     +0.30 |   9 |#########
+   3 |     +0.24 |   6 |     +0.24 |   1 |#
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1     16       -0.25      0.00     11.90           RANKING
+   1      2      9       -0.22      0.26     11.93           RANKING
+   1      3     15       -0.22      1.38     12.23           RANKING
+   1      4     18       -0.19      0.52     11.96           RANKING
+   1      5      5       -0.08      1.16     11.86           RANKING
+   1      6     12       +0.04      1.23     11.48           RANKING
+   1      7     19       +0.15      1.34     12.08           RANKING
+   1      8     13       +0.16      1.51     11.11           RANKING
+   1      9      2       +0.19      1.19     11.46           RANKING
+   1     10     10       +0.21      1.29     11.91           RANKING
+   2      1      4       +0.22      0.00      8.20           RANKING
+   2      2     17       +0.24      1.11      7.62           RANKING
+   2      3     14       +0.25      1.47      7.59           RANKING
+   2      4      7       +0.26      1.55      7.02           RANKING
+   2      5      3       +0.32      1.49      7.75           RANKING
+   2      6     11       +0.33      1.31      8.03           RANKING
+   2      7      8       +0.34      1.34      7.67           RANKING
+   2      8     20       +0.36      1.74      6.20           RANKING
+   2      9      1       +0.44      1.16      8.20           RANKING
+   3      1      6       +0.24      0.00     11.36           RANKING
+
+Run time 0.231 sec
+Idle time 0.258 sec

@@ -1,0 +1,13 @@
+npts 53 53 53
+gridfld Hidrogel3_mellitic.maps.fld
+spacing 0.375
+receptor_types C A N OA H HD
+ligand_types OA Zn
+receptor Hidrogel3_mellitic.pdbqt
+gridcenter 0.01 0.03 0.06
+smooth 0.5
+map Hidrogel3_mellitic.OA.map
+map Hidrogel3_mellitic.Zn.map
+elecmap Hidrogel3_mellitic.e.map
+dsolvmap Hidrogel3_mellitic.d.map
+dielectric -0.1465
