@@ -1,0 +1,246 @@
+REMARK Bombardeo dual (quercetin via Kabsch + CONECT reales)
+HETATM    1  V   DVT B   1     -35.067  -9.500 -24.523  1.00  0.00           V
+HETATM    2  V   DVT B   1     -33.604  -8.393 -27.253  1.00  0.00           V
+HETATM    3  V   DVT B   1     -31.925  -8.958 -24.640  1.00  0.00           V
+HETATM    4  V   DVT B   1     -36.745  -8.935 -27.136  1.00  0.00           V
+HETATM    5  V   DVT B   1     -36.144 -11.828 -26.201  1.00  0.00           V
+HETATM    6  V   DVT B   1     -35.606  -6.591 -25.481  1.00  0.00           V
+HETATM    7  V   DVT B   1     -33.065 -11.302 -26.295  1.00  0.00           V
+HETATM    8  V   DVT B   1     -33.814  -7.116 -22.998  1.00  0.00           V
+HETATM    9  V   DVT B   1     -32.525  -6.063 -25.575  1.00  0.00           V
+HETATM   10  V   DVT B   1     -34.857 -10.776 -28.777  1.00  0.00           V
+HETATM   11  O   DVT B   1     -33.340 -10.407 -24.483  1.00  0.00           O
+HETATM   12  O   DVT B   1     -35.331  -7.486 -27.292  1.00  0.00           O
+HETATM   13  O   DVT B   1     -36.003 -10.908 -24.397  1.00  0.00           O
+HETATM   14  O   DVT B   1     -32.668  -6.983 -27.378  1.00  0.00           O
+HETATM   15  O   DVT B   1     -36.431  -8.362 -25.243  1.00  0.00           O
+HETATM   16  O   DVT B   1     -32.240  -9.531 -26.533  1.00  0.00           O
+HETATM   17  O   DVT B   1     -33.839  -7.937 -25.182  1.00  0.00           O
+HETATM   18  O   DVT B   1     -34.832  -9.956 -26.594  1.00  0.00           O
+HETATM   19  O   DVT B   1     -30.624  -9.863 -24.297  1.00  0.00           O
+HETATM   20  O   DVT B   1     -38.046  -8.028 -27.478  1.00  0.00           O
+HETATM   21  O   DVT B   1     -31.243  -7.405 -25.205  1.00  0.00           O
+HETATM   22  O   DVT B   1     -37.428 -10.488 -26.571  1.00  0.00           O
+HETATM   23  O   DVT B   1     -31.605  -4.818 -25.988  1.00  0.00           O
+HETATM   24  O   DVT B   1     -37.065 -13.075 -25.787  1.00  0.00           O
+HETATM   25  O   DVT B   1     -34.229  -5.427 -25.957  1.00  0.00           O
+HETATM   26  O   DVT B   1     -34.441 -12.465 -25.819  1.00  0.00           O
+HETATM   27  O   DVT B   1     -36.922  -5.723 -25.835  1.00  0.00           O
+HETATM   28  O   DVT B   1     -31.749 -12.169 -25.940  1.00  0.00           O
+HETATM   29  O   DVT B   1     -34.979  -8.829 -22.975  1.00  0.00           O
+HETATM   30  O   DVT B   1     -33.691  -9.063 -28.800  1.00  0.00           O
+HETATM   31  O   DVT B   1     -32.404  -8.352 -22.965  1.00  0.00           O
+HETATM   32  O   DVT B   1     -36.266  -9.541 -28.811  1.00  0.00           O
+HETATM   33  O   DVT B   1     -32.787  -5.829 -23.750  1.00  0.00           O
+HETATM   34  O   DVT B   1     -35.883 -12.063 -28.025  1.00  0.00           O
+HETATM   35  O   DVT B   1     -35.398  -6.336 -23.722  1.00  0.00           O
+HETATM   36  O   DVT B   1     -33.273 -11.556 -28.054  1.00  0.00           O
+HETATM   37  O   DVT B   1     -33.922  -6.680 -21.453  1.00  0.00           O
+HETATM   38  O   DVT B   1     -34.749 -11.212 -30.322  1.00  0.00           O
+HETATM   39  O   QUE B   1     -32.185  -6.594 -31.426  1.00  0.00           O
+HETATM   40  O   QUE B   1     -33.096  -3.088 -32.110  1.00  0.00           O
+HETATM   41  O   QUE B   1     -29.504  -3.925 -28.397  1.00  0.00           O
+HETATM   42  O   QUE B   1     -31.190  -2.873 -30.095  1.00  0.00           O
+HETATM   43  O   QUE B   1     -29.177  -8.662 -28.393  1.00  0.00           O
+HETATM   44  O   QUE B   1     -33.853  -6.174 -36.655  1.00  0.00           O
+HETATM   45  O   QUE B   1     -36.518  -6.597 -35.995  1.00  0.00           O
+HETATM   46  C   QUE B   1     -30.869  -5.203 -29.934  1.00  0.00           C
+HETATM   47  C   QUE B   1     -31.253  -6.447 -30.432  1.00  0.00           C
+HETATM   48  C   QUE B   1     -32.759  -5.455 -31.968  1.00  0.00           C
+HETATM   49  C   QUE B   1     -33.741  -5.753 -33.026  1.00  0.00           C
+HETATM   50  C   QUE B   1     -32.482  -4.198 -31.572  1.00  0.00           C
+HETATM   51  C   QUE B   1     -31.484  -3.991 -30.496  1.00  0.00           C
+HETATM   52  C   QUE B   1     -29.914  -5.115 -28.918  1.00  0.00           C
+HETATM   53  C   QUE B   1     -30.686  -7.612 -29.915  1.00  0.00           C
+HETATM   54  C   QUE B   1     -29.732  -7.528 -28.899  1.00  0.00           C
+HETATM   55  C   QUE B   1     -33.333  -5.824 -34.357  1.00  0.00           C
+HETATM   56  C   QUE B   1     -29.348  -6.281 -28.403  1.00  0.00           C
+HETATM   57  C   QUE B   1     -35.080  -5.964 -32.694  1.00  0.00           C
+HETATM   58  C   QUE B   1     -34.263  -6.108 -35.358  1.00  0.00           C
+HETATM   59  C   QUE B   1     -36.010  -6.247 -33.695  1.00  0.00           C
+HETATM   60  C   QUE B   1     -35.601  -6.318 -35.027  1.00  0.00           C
+CONECT    1   11   13   15   17   29
+CONECT    2   12   14   16   18   30
+CONECT    3   11   16   19   21   31
+CONECT    4   12   15   20   22   32
+CONECT    5   13   22   24   26   34
+CONECT    6   12   15   25   27   35
+CONECT    7   11   16   26   28   36
+CONECT    8   29   31   33   35   37
+CONECT    9   14   21   23   25   33
+CONECT   10   30   32   34   36   38
+CONECT   11    1    3    7
+CONECT   12    2    4    6
+CONECT   13    1    5
+CONECT   14    2    9
+CONECT   15    1    4    6
+CONECT   16    2    3    7
+CONECT   17    1
+CONECT   18    2
+CONECT   19    3
+CONECT   20    4
+CONECT   21    3    9
+CONECT   22    4    5
+CONECT   23    9
+CONECT   24    5
+CONECT   25    6    9
+CONECT   26    5    7
+CONECT   27    6
+CONECT   28    7
+CONECT   29    1    8
+CONECT   30    2   10
+CONECT   31    3    8
+CONECT   32    4   10
+CONECT   33    8    9
+CONECT   34    5   10
+CONECT   35    6    8
+CONECT   36    7   10
+CONECT   37    8
+CONECT   38   10
+CONECT   39   47
+CONECT   39   48
+CONECT   40   50
+CONECT   41   52
+CONECT   42   51
+CONECT   43   54
+CONECT   44   58
+CONECT   45   60
+CONECT   46   47
+CONECT   46   51
+CONECT   46   52
+CONECT   47   53
+CONECT   48   49
+CONECT   48   50
+CONECT   49   55
+CONECT   49   57
+CONECT   50   51
+CONECT   52   56
+CONECT   53   54
+CONECT   54   56
+CONECT   55   58
+CONECT   57   59
+CONECT   58   60
+CONECT   59   60
+HETATM   61  V   DVT C   1     -35.009   5.461 -20.104  1.00  0.00           V
+HETATM   62  V   DVT C   1     -33.296   3.166 -18.485  1.00  0.00           V
+HETATM   63  V   DVT C   1     -31.885   5.783 -19.547  1.00  0.00           V
+HETATM   64  V   DVT C   1     -36.420   2.845 -19.042  1.00  0.00           V
+HETATM   65  V   DVT C   1     -36.879   5.590 -17.678  1.00  0.00           V
+HETATM   66  V   DVT C   1     -34.488   2.704 -21.445  1.00  0.00           V
+HETATM   67  V   DVT C   1     -33.818   5.923 -17.144  1.00  0.00           V
+HETATM   68  V   DVT C   1     -32.958   5.230 -22.410  1.00  0.00           V
+HETATM   69  V   DVT C   1     -31.425   3.036 -20.911  1.00  0.00           V
+HETATM   70  V   DVT C   1     -35.346   3.397 -16.180  1.00  0.00           V
+HETATM   71  O   DVT C   1     -33.721   6.520 -19.091  1.00  0.00           O
+HETATM   72  O   DVT C   1     -34.584   2.107 -19.498  1.00  0.00           O
+HETATM   73  O   DVT C   1     -36.385   6.267 -19.527  1.00  0.00           O
+HETATM   74  O   DVT C   1     -31.920   2.360 -19.063  1.00  0.00           O
+HETATM   75  O   DVT C   1     -35.888   3.859 -20.684  1.00  0.00           O
+HETATM   76  O   DVT C   1     -32.417   4.768 -17.905  1.00  0.00           O
+HETATM   77  O   DVT C   1     -33.315   4.249 -20.323  1.00  0.00           O
+HETATM   78  O   DVT C   1     -34.991   4.377 -18.266  1.00  0.00           O
+HETATM   79  O   DVT C   1     -30.988   6.949 -18.864  1.00  0.00           O
+HETATM   80  O   DVT C   1     -37.317   1.678 -19.725  1.00  0.00           O
+HETATM   81  O   DVT C   1     -30.702   4.510 -19.970  1.00  0.00           O
+HETATM   82  O   DVT C   1     -37.604   4.116 -18.619  1.00  0.00           O
+HETATM   83  O   DVT C   1     -30.127   2.135 -21.182  1.00  0.00           O
+HETATM   84  O   DVT C   1     -38.178   6.492 -17.407  1.00  0.00           O
+HETATM   85  O   DVT C   1     -32.795   1.926 -21.498  1.00  0.00           O
+HETATM   86  O   DVT C   1     -35.510   6.702 -17.091  1.00  0.00           O
+HETATM   87  O   DVT C   1     -35.412   1.551 -22.099  1.00  0.00           O
+HETATM   88  O   DVT C   1     -32.893   7.075 -16.490  1.00  0.00           O
+HETATM   89  O   DVT C   1     -34.660   6.113 -21.622  1.00  0.00           O
+HETATM   90  O   DVT C   1     -33.646   2.515 -16.967  1.00  0.00           O
+HETATM   91  O   DVT C   1     -32.085   6.429 -21.263  1.00  0.00           O
+HETATM   92  O   DVT C   1     -36.220   2.199 -17.326  1.00  0.00           O
+HETATM   93  O   DVT C   1     -31.553   4.090 -22.437  1.00  0.00           O
+HETATM   94  O   DVT C   1     -36.752   4.536 -16.153  1.00  0.00           O
+HETATM   95  O   DVT C   1     -34.171   3.813 -22.813  1.00  0.00           O
+HETATM   96  O   DVT C   1     -34.134   4.814 -15.776  1.00  0.00           O
+HETATM   97  O   DVT C   1     -32.875   5.990 -23.826  1.00  0.00           O
+HETATM   98  O   DVT C   1     -35.429   2.636 -14.764  1.00  0.00           O
+HETATM   99  O   QUE C   1     -31.402  -0.613 -16.295  1.00  0.00           O
+HETATM  100  O   QUE C   1     -31.009  -3.670 -18.317  1.00  0.00           O
+HETATM  101  O   QUE C   1     -27.889   0.366 -19.487  1.00  0.00           O
+HETATM  102  O   QUE C   1     -29.117  -1.941 -19.397  1.00  0.00           O
+HETATM  103  O   QUE C   1     -29.280   3.632 -16.334  1.00  0.00           O
+HETATM  104  O   QUE C   1     -32.903  -4.957 -13.265  1.00  0.00           O
+HETATM  105  O   QUE C   1     -35.531  -4.862 -14.162  1.00  0.00           O
+HETATM  106  C   QUE C   1     -29.649  -0.183 -17.917  1.00  0.00           C
+HETATM  107  C   QUE C   1     -30.462   0.211 -16.856  1.00  0.00           C
+HETATM  108  C   QUE C   1     -31.540  -1.898 -16.796  1.00  0.00           C
+HETATM  109  C   QUE C   1     -32.583  -2.676 -16.104  1.00  0.00           C
+HETATM  110  C   QUE C   1     -30.825  -2.398 -17.820  1.00  0.00           C
+HETATM  111  C   QUE C   1     -29.800  -1.541 -18.462  1.00  0.00           C
+HETATM  112  C   QUE C   1     -28.708   0.701 -18.450  1.00  0.00           C
+HETATM  113  C   QUE C   1     -30.341   1.494 -16.323  1.00  0.00           C
+HETATM  114  C   QUE C   1     -29.401   2.381 -16.853  1.00  0.00           C
+HETATM  115  C   QUE C   1     -32.251  -3.459 -14.998  1.00  0.00           C
+HETATM  116  C   QUE C   1     -28.587   1.983 -17.915  1.00  0.00           C
+HETATM  117  C   QUE C   1     -33.902  -2.630 -16.555  1.00  0.00           C
+HETATM  118  C   QUE C   1     -33.238  -4.195 -14.343  1.00  0.00           C
+HETATM  119  C   QUE C   1     -34.889  -3.366 -15.900  1.00  0.00           C
+HETATM  120  C   QUE C   1     -34.558  -4.149 -14.795  1.00  0.00           C
+CONECT   61   71   73   75   77   89
+CONECT   62   72   74   76   78   90
+CONECT   63   71   76   79   81   91
+CONECT   64   72   75   80   82   92
+CONECT   65   73   82   84   86   94
+CONECT   66   72   75   85   87   95
+CONECT   67   71   76   86   88   96
+CONECT   68   89   91   93   95   97
+CONECT   69   74   81   83   85   93
+CONECT   70   90   92   94   96   98
+CONECT   71   61   63   67
+CONECT   72   62   64   66
+CONECT   73   61   65
+CONECT   74   62   69
+CONECT   75   61   64   66
+CONECT   76   62   63   67
+CONECT   77   61
+CONECT   78   62
+CONECT   79   63
+CONECT   80   64
+CONECT   81   63   69
+CONECT   82   64   65
+CONECT   83   69
+CONECT   84   65
+CONECT   85   66   69
+CONECT   86   65   67
+CONECT   87   66
+CONECT   88   67
+CONECT   89   61   68
+CONECT   90   62   70
+CONECT   91   63   68
+CONECT   92   64   70
+CONECT   93   68   69
+CONECT   94   65   70
+CONECT   95   66   68
+CONECT   96   67   70
+CONECT   97   68
+CONECT   98   70
+CONECT   99  107
+CONECT   99  108
+CONECT  100  110
+CONECT  101  112
+CONECT  102  111
+CONECT  103  114
+CONECT  104  118
+CONECT  105  120
+CONECT  106  107
+CONECT  106  111
+CONECT  106  112
+CONECT  107  113
+CONECT  108  109
+CONECT  108  110
+CONECT  109  115
+CONECT  109  117
+CONECT  110  111
+CONECT  112  116
+CONECT  113  114
+CONECT  114  116
+CONECT  115  118
+CONECT  117  119
+CONECT  118  120
+CONECT  119  120
+END

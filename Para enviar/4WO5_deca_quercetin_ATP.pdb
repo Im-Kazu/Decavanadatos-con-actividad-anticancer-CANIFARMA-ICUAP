@@ -1,0 +1,124 @@
+REMARK 4WO5 deca-quercetin (Kabsch + CONECT completos)
+HETATM    1  V   DVT A   1     -35.067  -9.500 -24.523  1.00  0.00           V
+HETATM    2  V   DVT A   1     -33.604  -8.393 -27.253  1.00  0.00           V
+HETATM    3  V   DVT A   1     -31.925  -8.958 -24.640  1.00  0.00           V
+HETATM    4  V   DVT A   1     -36.745  -8.935 -27.136  1.00  0.00           V
+HETATM    5  V   DVT A   1     -36.144 -11.828 -26.201  1.00  0.00           V
+HETATM    6  V   DVT A   1     -35.606  -6.591 -25.481  1.00  0.00           V
+HETATM    7  V   DVT A   1     -33.065 -11.302 -26.295  1.00  0.00           V
+HETATM    8  V   DVT A   1     -33.814  -7.116 -22.998  1.00  0.00           V
+HETATM    9  V   DVT A   1     -32.525  -6.063 -25.575  1.00  0.00           V
+HETATM   10  V   DVT A   1     -34.857 -10.776 -28.777  1.00  0.00           V
+HETATM   11  O   DVT A   1     -33.340 -10.407 -24.483  1.00  0.00           O
+HETATM   12  O   DVT A   1     -35.331  -7.486 -27.292  1.00  0.00           O
+HETATM   13  O   DVT A   1     -36.003 -10.908 -24.397  1.00  0.00           O
+HETATM   14  O   DVT A   1     -32.668  -6.983 -27.378  1.00  0.00           O
+HETATM   15  O   DVT A   1     -36.431  -8.362 -25.243  1.00  0.00           O
+HETATM   16  O   DVT A   1     -32.240  -9.531 -26.533  1.00  0.00           O
+HETATM   17  O   DVT A   1     -33.839  -7.937 -25.182  1.00  0.00           O
+HETATM   18  O   DVT A   1     -34.832  -9.956 -26.594  1.00  0.00           O
+HETATM   19  O   DVT A   1     -30.624  -9.863 -24.297  1.00  0.00           O
+HETATM   20  O   DVT A   1     -38.046  -8.028 -27.478  1.00  0.00           O
+HETATM   21  O   DVT A   1     -31.243  -7.405 -25.205  1.00  0.00           O
+HETATM   22  O   DVT A   1     -37.428 -10.488 -26.571  1.00  0.00           O
+HETATM   23  O   DVT A   1     -31.605  -4.818 -25.988  1.00  0.00           O
+HETATM   24  O   DVT A   1     -37.065 -13.075 -25.787  1.00  0.00           O
+HETATM   25  O   DVT A   1     -34.229  -5.427 -25.957  1.00  0.00           O
+HETATM   26  O   DVT A   1     -34.441 -12.465 -25.819  1.00  0.00           O
+HETATM   27  O   DVT A   1     -36.922  -5.723 -25.835  1.00  0.00           O
+HETATM   28  O   DVT A   1     -31.749 -12.169 -25.940  1.00  0.00           O
+HETATM   29  O   DVT A   1     -34.979  -8.829 -22.975  1.00  0.00           O
+HETATM   30  O   DVT A   1     -33.691  -9.063 -28.800  1.00  0.00           O
+HETATM   31  O   DVT A   1     -32.404  -8.352 -22.965  1.00  0.00           O
+HETATM   32  O   DVT A   1     -36.266  -9.541 -28.811  1.00  0.00           O
+HETATM   33  O   DVT A   1     -32.787  -5.829 -23.750  1.00  0.00           O
+HETATM   34  O   DVT A   1     -35.883 -12.063 -28.025  1.00  0.00           O
+HETATM   35  O   DVT A   1     -35.398  -6.336 -23.722  1.00  0.00           O
+HETATM   36  O   DVT A   1     -33.273 -11.556 -28.054  1.00  0.00           O
+HETATM   37  O   DVT A   1     -33.922  -6.680 -21.453  1.00  0.00           O
+HETATM   38  O   DVT A   1     -34.749 -11.212 -30.322  1.00  0.00           O
+CONECT    1   11   13   15   17   29
+CONECT    2   12   14   16   18   30
+CONECT    3   11   16   19   21   31
+CONECT    4   12   15   20   22   32
+CONECT    5   13   22   24   26   34
+CONECT    6   12   15   25   27   35
+CONECT    7   11   16   26   28   36
+CONECT    8   29   31   33   35   37
+CONECT    9   14   21   23   25   33
+CONECT   10   30   32   34   36   38
+CONECT   11    1    3    7
+CONECT   12    2    4    6
+CONECT   13    1    5
+CONECT   14    2    9
+CONECT   15    1    4    6
+CONECT   16    2    3    7
+CONECT   17    1
+CONECT   18    2
+CONECT   19    3
+CONECT   20    4
+CONECT   21    3    9
+CONECT   22    4    5
+CONECT   23    9
+CONECT   24    5
+CONECT   25    6    9
+CONECT   26    5    7
+CONECT   27    6
+CONECT   28    7
+CONECT   29    1    8
+CONECT   30    2   10
+CONECT   31    3    8
+CONECT   32    4   10
+CONECT   33    8    9
+CONECT   34    5   10
+CONECT   35    6    8
+CONECT   36    7   10
+CONECT   37    8
+CONECT   38   10
+HETATM   39  O   QUE A   1     -32.185  -6.594 -31.426  1.00  0.00           O
+HETATM   40  O   QUE A   1     -33.096  -3.088 -32.110  1.00  0.00           O
+HETATM   41  O   QUE A   1     -29.504  -3.925 -28.397  1.00  0.00           O
+HETATM   42  O   QUE A   1     -31.190  -2.873 -30.095  1.00  0.00           O
+HETATM   43  O   QUE A   1     -29.177  -8.662 -28.393  1.00  0.00           O
+HETATM   44  O   QUE A   1     -33.853  -6.174 -36.655  1.00  0.00           O
+HETATM   45  O   QUE A   1     -36.518  -6.597 -35.995  1.00  0.00           O
+HETATM   46  C   QUE A   1     -30.869  -5.203 -29.934  1.00  0.00           C
+HETATM   47  C   QUE A   1     -31.253  -6.447 -30.432  1.00  0.00           C
+HETATM   48  C   QUE A   1     -32.759  -5.455 -31.968  1.00  0.00           C
+HETATM   49  C   QUE A   1     -33.741  -5.753 -33.026  1.00  0.00           C
+HETATM   50  C   QUE A   1     -32.482  -4.198 -31.572  1.00  0.00           C
+HETATM   51  C   QUE A   1     -31.484  -3.991 -30.496  1.00  0.00           C
+HETATM   52  C   QUE A   1     -29.914  -5.115 -28.918  1.00  0.00           C
+HETATM   53  C   QUE A   1     -30.686  -7.612 -29.915  1.00  0.00           C
+HETATM   54  C   QUE A   1     -29.732  -7.528 -28.899  1.00  0.00           C
+HETATM   55  C   QUE A   1     -33.333  -5.824 -34.357  1.00  0.00           C
+HETATM   56  C   QUE A   1     -29.348  -6.281 -28.403  1.00  0.00           C
+HETATM   57  C   QUE A   1     -35.080  -5.964 -32.694  1.00  0.00           C
+HETATM   58  C   QUE A   1     -34.263  -6.108 -35.358  1.00  0.00           C
+HETATM   59  C   QUE A   1     -36.010  -6.247 -33.695  1.00  0.00           C
+HETATM   60  C   QUE A   1     -35.601  -6.318 -35.027  1.00  0.00           C
+CONECT   39   47
+CONECT   39   48
+CONECT   40   50
+CONECT   41   52
+CONECT   42   51
+CONECT   43   54
+CONECT   44   58
+CONECT   45   60
+CONECT   46   47
+CONECT   46   51
+CONECT   46   52
+CONECT   47   53
+CONECT   48   49
+CONECT   48   50
+CONECT   49   55
+CONECT   49   57
+CONECT   50   51
+CONECT   52   56
+CONECT   53   54
+CONECT   54   56
+CONECT   55   58
+CONECT   57   59
+CONECT   58   60
+CONECT   59   60
+END
