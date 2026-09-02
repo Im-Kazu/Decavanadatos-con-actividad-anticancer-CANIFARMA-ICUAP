@@ -1,0 +1,80 @@
+=== Deca-Quercetin caja chica — energía MÍNIMA real ===
+--- br_set/dlg_3OG7_querc_small.dlg (todas las energías, sin filtrar) ---
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+-7.37
+--- br_set/dlg_4G9C_querc_small.dlg (todas las energías, sin filtrar) ---
+268.62
+268.62
+268.63
+268.68
+269.09
+269.59
+269.63
+270.37
+271.62
+387.50
+387.50
+733.52
+733.52
+--- br_set/dlg_4WO5_querc_small.dlg (todas las energías, sin filtrar) ---
+-10.35
+-10.35
+-10.33
+-10.33
+-10.32
+-10.31
+-10.31
+-10.30
+-10.30
+-10.25
+-10.24
+--- br_set/dlg_4XV2_querc_small.dlg (todas las energías, sin filtrar) ---
+4.18
+4.18
+4.18
+4.19
+4.22
+5.32
+5.32
+5.32
+5.48
+5.48
+5.54
+6.15
+6.15
+--- br_set/dlg_5C9C_querc_small.dlg (todas las energías, sin filtrar) ---
+1.24
+1.24
+1.24
+1.24
+1.24
+1.24
+1.24
+1.24
+1.24
+1.24
+1.29
+1.29
+--- br_set/dlg_6U2G_querc_small.dlg (todas las energías, sin filtrar) ---
+-4.60
+-4.60
+-4.59
+-4.59
+-4.59
+-4.58
+-4.57
+-4.56
+-4.46
+-3.44
+-3.44
+-3.43
+=== vdW + Hbond + desolv Energy (3OG7 y 4WO5 querc) ===

@@ -1,0 +1,93 @@
+============================================
+RESUMEN COMPLETO - TODOS LOS ARCHIVOS
+============================================
+
+=== TIROSINASAS (br_set/tyr) ===
+./br_set/tyr/2Y9X_pH50_pose1.pdbqt [Vina]: -8.246 kcal/mol
+./br_set/tyr/2Y9X_pH74_pose1.pdbqt [Vina]: -8.203 kcal/mol
+./br_set/tyr/3NQ1_pH50_pose1.pdbqt [Vina]: -8.603 kcal/mol
+./br_set/tyr/3NQ1_pH74_pose1.pdbqt [Vina]: -8.614 kcal/mol
+./br_set/tyr/4P6R_pH50_pose1.pdbqt [Vina]: -9.258 kcal/mol
+./br_set/tyr/4P6R_pH74_pose1.pdbqt [Vina]: -9.225 kcal/mol
+./br_set/tyr/5I38_pH50_pose1.pdbqt [Vina]: -10.615 kcal/mol
+./br_set/tyr/5I38_pH74_pose1.pdbqt [Vina]: -10.645 kcal/mol
+./br_set/tyr/5M8L_pH50_pose1.pdbqt [Vina]: -8.909 kcal/mol
+./br_set/tyr/5M8L_pH74_pose1.pdbqt [Vina]: -8.359 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_deca.pdbqt [Vina]: -8.246 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_hybrid_deca_1ade.pdbqt [Vina]: -11.023 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_hybrid_deca_quercetin.pdbqt [Vina]: -11.319 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_metal.pdbqt [Vina]: -8.049 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_deca.pdbqt [Vina]: -8.203 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_hybrid_deca_1ade.pdbqt [Vina]: -10.941 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_hybrid_deca_quercetin.pdbqt [Vina]: -10.998 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_metal.pdbqt [Vina]: -7.490 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_deca.pdbqt [Vina]: -8.603 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_hybrid_deca_1ade.pdbqt [Vina]: -10.840 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_hybrid_deca_quercetin.pdbqt [Vina]: -10.976 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_metal.pdbqt [Vina]: -2.968 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_deca.pdbqt [Vina]: -8.614 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_hybrid_deca_1ade.pdbqt [Vina]: -10.282 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_hybrid_deca_quercetin.pdbqt [Vina]: -10.983 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_metal.pdbqt [Vina]: -2.445 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_deca.pdbqt [Vina]: -9.258 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_hybrid_deca_1ade.pdbqt [Vina]: -10.668 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_hybrid_deca_quercetin.pdbqt [Vina]: -11.666 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_metal.pdbqt [Vina]: -2.167 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_deca.pdbqt [Vina]: -9.225 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_hybrid_deca_1ade.pdbqt [Vina]: -10.629 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_hybrid_deca_quercetin.pdbqt [Vina]: -11.639 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_metal.pdbqt [Vina]: -1.568 kcal/mol
+./br_set/tyr/vina_5I38_pH50_deca.pdbqt [Vina]: -10.615 kcal/mol
+./br_set/tyr/vina_5I38_pH50_hybrid_deca_1ade.pdbqt [Vina]: -11.450 kcal/mol
+./br_set/tyr/vina_5I38_pH50_hybrid_deca_quercetin.pdbqt [Vina]: -12.574 kcal/mol
+./br_set/tyr/vina_5I38_pH50_metal.pdbqt [Vina]: -7.053 kcal/mol
+./br_set/tyr/vina_5I38_pH74_deca.pdbqt [Vina]: -10.645 kcal/mol
+./br_set/tyr/vina_5I38_pH74_hybrid_deca_1ade.pdbqt [Vina]: -11.396 kcal/mol
+./br_set/tyr/vina_5I38_pH74_hybrid_deca_quercetin.pdbqt [Vina]: -12.601 kcal/mol
+./br_set/tyr/vina_5I38_pH74_metal.pdbqt [Vina]: -6.321 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_deca.pdbqt [Vina]: -8.909 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_hybrid_deca_1ade.pdbqt [Vina]: -11.365 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_hybrid_deca_quercetin.pdbqt [Vina]: -11.007 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_metal.pdbqt [Vina]: -8.375 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_deca.pdbqt [Vina]: -8.359 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_hybrid_deca_1ade.pdbqt [Vina]: -11.115 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_hybrid_deca_quercetin.pdbqt [Vina]: -10.842 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_metal.pdbqt [Vina]: -8.354 kcal/mol
+
+=== RETIPADO Zn->Cu (Exp 15) ===
+./br_set/tyr/4P6R_pH50_receptor_ZnCu.pdbqt
+./br_set/tyr/4P6R_pH74_receptor_ZnCu.pdbqt
+./br_set/tyr/5M8L_pH50_receptor_ZnCu.pdbqt
+./br_set/tyr/5M8L_pH74_receptor_ZnCu.pdbqt
+
+=== DOCKING CIEGO TIROSINASAS (Exp 13) ===
+./br_set/tyr/vina_2Y9X_pH50_deca.pdbqt
+./br_set/tyr/vina_2Y9X_pH50_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_2Y9X_pH50_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_2Y9X_pH74_deca.pdbqt
+./br_set/tyr/vina_2Y9X_pH74_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_2Y9X_pH74_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_3NQ1_pH50_deca.pdbqt
+./br_set/tyr/vina_3NQ1_pH50_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_3NQ1_pH50_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_3NQ1_pH74_deca.pdbqt
+./br_set/tyr/vina_3NQ1_pH74_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_3NQ1_pH74_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_4P6R_pH50_deca.pdbqt
+./br_set/tyr/vina_4P6R_pH50_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_4P6R_pH50_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_4P6R_pH74_deca.pdbqt
+./br_set/tyr/vina_4P6R_pH74_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_4P6R_pH74_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_5I38_pH50_deca.pdbqt
+./br_set/tyr/vina_5I38_pH50_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_5I38_pH50_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_5I38_pH74_deca.pdbqt
+./br_set/tyr/vina_5I38_pH74_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_5I38_pH74_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_5M8L_pH50_deca.pdbqt
+./br_set/tyr/vina_5M8L_pH50_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_5M8L_pH50_hybrid_deca_quercetin.pdbqt
+./br_set/tyr/vina_5M8L_pH74_deca.pdbqt
+./br_set/tyr/vina_5M8L_pH74_hybrid_deca_1ade.pdbqt
+./br_set/tyr/vina_5M8L_pH74_hybrid_deca_quercetin.pdbqt

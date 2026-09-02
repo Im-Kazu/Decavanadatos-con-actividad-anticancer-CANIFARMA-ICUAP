@@ -1,0 +1,19 @@
+=== Co-validación cruzada — energía MÍNIMA real (corregido) ===
+br_set/dlg_3OG7_V10.dlg: -8.73 kcal/mol
+br_set/dlg_4XV2_V10.dlg: -6.79 kcal/mol
+br_set/dlg_5C9C_V10.dlg: -8.38 kcal/mol
+br_set/dlg_4WO5_V10.dlg: -7.73 kcal/mol
+br_set/dlg_4G9C_V10.dlg: -7.40 kcal/mol
+br_set/dlg_6U2G_V10.dlg: -2.96 kcal/mol
+br_set/dlg_3OG7_VO4.dlg: -9.21 kcal/mol
+br_set/dlg_4XV2_VO4.dlg: -9.67 kcal/mol
+br_set/dlg_5C9C_VO4.dlg: -9.01 kcal/mol
+br_set/dlg_4WO5_VO4.dlg: -7.82 kcal/mol
+br_set/dlg_4G9C_VO4.dlg: -6.56 kcal/mol
+br_set/dlg_6U2G_VO4.dlg: -4.43 kcal/mol
+br_set/dlg_3OG7_V6ring.dlg: -11.78 kcal/mol
+br_set/dlg_4XV2_V6ring.dlg: -9.37 kcal/mol
+br_set/dlg_5C9C_V6ring.dlg: -10.27 kcal/mol
+br_set/dlg_4WO5_V6ring.dlg: -9.57 kcal/mol
+br_set/dlg_4G9C_V6ring.dlg: -8.35 kcal/mol
+br_set/dlg_6U2G_V6ring.dlg: -3.35 kcal/mol

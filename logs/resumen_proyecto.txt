@@ -1,0 +1,225 @@
+============================================
+RESUMEN DE RESULTADOS DEL PROYECTO CANIFARMA
+Generado: Tue Aug 18 16:11:40 CST 2026
+============================================
+
+============================================
+1. ENERGÍAS AUTODOCK 4 (.dlg)
+============================================
+./br_set/dlg_3OG7_hybrid.dlg: -8.29 kcal/mol
+./br_set/dlg_3OG7_hybrid_small.dlg: -3.32 kcal/mol
+./br_set/dlg_3OG7_querc_small.dlg: -7.37 kcal/mol
+./br_set/dlg_3OG7_V10.dlg: -7.36 kcal/mol
+./br_set/dlg_3OG7_V6ring.dlg: -11.27 kcal/mol
+./br_set/dlg_3OG7_VO4.dlg: -8.53 kcal/mol
+./br_set/dlg_4G9C_hybrid.dlg: -6.62 kcal/mol
+./br_set/dlg_4G9C_querc_small.dlg: 387.50 kcal/mol
+./br_set/dlg_4G9C_V10.dlg: -6.95 kcal/mol
+./br_set/dlg_4G9C_V6ring.dlg: -6.85 kcal/mol
+./br_set/dlg_4G9C_VO4.dlg: -6.43 kcal/mol
+./br_set/dlg_4WO5_atpmimic.dlg: 7.96 kcal/mol
+./br_set/dlg_4WO5_bomb.dlg: -7.51 kcal/mol
+./br_set/dlg_4WO5_bomb_10.dlg: 0.37 kcal/mol
+./br_set/dlg_4WO5_bomb_11.dlg: -2.91 kcal/mol
+./br_set/dlg_4WO5_bomb_12.dlg: 0.07 kcal/mol
+./br_set/dlg_4WO5_bomb_2.dlg: -7.33 kcal/mol
+./br_set/dlg_4WO5_bomb_3.dlg: -7.22 kcal/mol
+./br_set/dlg_4WO5_bomb_4.dlg: -4.73 kcal/mol
+./br_set/dlg_4WO5_bomb_5.dlg: -5.09 kcal/mol
+./br_set/dlg_4WO5_bomb_6.dlg: -4.19 kcal/mol
+./br_set/dlg_4WO5_bomb_7.dlg: -2.26 kcal/mol
+./br_set/dlg_4WO5_bomb_8.dlg: -2.85 kcal/mol
+./br_set/dlg_4WO5_bomb_9.dlg: -1.95 kcal/mol
+./br_set/dlg_4WO5_deca_solo_ATP.dlg: 13.97 kcal/mol
+./br_set/dlg_4WO5_hybrid.dlg: -8.53 kcal/mol
+./br_set/dlg_4WO5_querc_ATP.dlg: 795.17 kcal/mol
+./br_set/dlg_4WO5_querc_small.dlg: -10.35 kcal/mol
+./br_set/dlg_4WO5_querc_solo.dlg: -6.83 kcal/mol
+./br_set/dlg_4WO5_V10.dlg: -7.45 kcal/mol
+./br_set/dlg_4WO5_V6ring.dlg: -8.91 kcal/mol
+./br_set/dlg_4WO5_VO4.dlg: -6.66 kcal/mol
+./br_set/dlg_4XV2_hybrid.dlg: -7.31 kcal/mol
+./br_set/dlg_4XV2_querc_small.dlg: 4.18 kcal/mol
+./br_set/dlg_4XV2_V10.dlg: -6.26 kcal/mol
+./br_set/dlg_4XV2_V6ring.dlg: -7.60 kcal/mol
+./br_set/dlg_4XV2_VO4.dlg: -9.14 kcal/mol
+./br_set/dlg_5C9C_hybrid.dlg: -7.80 kcal/mol
+./br_set/dlg_5C9C_querc_small.dlg: 1.24 kcal/mol
+./br_set/dlg_5C9C_V10.dlg: -8.04 kcal/mol
+./br_set/dlg_5C9C_V6ring.dlg: -7.86 kcal/mol
+./br_set/dlg_5C9C_VO4.dlg: -8.07 kcal/mol
+./br_set/dlg_6U2G_hybrid.dlg: -6.16 kcal/mol
+./br_set/dlg_6U2G_querc_small.dlg: -4.59 kcal/mol
+./br_set/dlg_6U2G_V10.dlg: -2.07 kcal/mol
+./br_set/dlg_6U2G_V6ring.dlg: -3.11 kcal/mol
+./br_set/dlg_6U2G_VO4.dlg: -1.43 kcal/mol
+./br_set/dlg_adenina_dimer.dlg: -4.88 kcal/mol
+./br_set/dlg_arginina_dimer.dlg: -1.66 kcal/mol
+./br_set/dlg_berberina_dimer.dlg: -8.94 kcal/mol
+./br_set/dlg_curcumina_dimer.dlg: -7.01 kcal/mol
+./br_set/dlg_deca_closed.dlg: -0.96 kcal/mol
+./br_set/dlg_deca_quercetin.dlg: -1.22 kcal/mol
+./br_set/dlg_dimer_dock1.dlg: -4.94 kcal/mol
+./br_set/dlg_dopamina_dimer.dlg: -4.01 kcal/mol
+./br_set/dlg_dq_open.dlg: -4.83 kcal/mol
+./br_set/dlg_espermina_dimer.dlg: 1.89 kcal/mol
+./br_set/dlg_harmina_dimer.dlg: -6.14 kcal/mol
+./br_set/dlg_histamina_dimer.dlg: -5.09 kcal/mol
+./br_set/dlg_hybrid_deca_berberina_dimer.dlg: -7.46 kcal/mol
+./br_set/dlg_hybrid_deca_curcumina_dimer.dlg: -7.30 kcal/mol
+./br_set/dlg_hybrid_deca_piperina_dimer.dlg: -7.38 kcal/mol
+./br_set/dlg_ldopa_dimer.dlg: -4.50 kcal/mol
+./br_set/dlg_piperina_dimer.dlg: -8.11 kcal/mol
+./br_set/dlg_que_closed.dlg: -9.55 kcal/mol
+./br_set/dlg_que_open.dlg: -9.54 kcal/mol
+./br_set/dlg_resveratrol_dimer.dlg: -6.61 kcal/mol
+./br_set/dlg_serotonina_dimer.dlg: -5.66 kcal/mol
+./br_set/dlg_src_atp.dlg: 12.16 kcal/mol
+./br_set/dlg_tiramina_dimer.dlg: -5.41 kcal/mol
+./docking/atp_pocket.dlg: -0.72 kcal/mol
+./docking/blind_docking.dlg: -1.86 kcal/mol
+./docking/pocket_blue.dlg: -1.79 kcal/mol
+./docking/pocket_small.dlg: -1.49 kcal/mol
+./grid_pH5/blind_pH5.dlg: -3.79 kcal/mol
+
+============================================
+2. ENERGÍAS VINA (.pdbqt)
+============================================
+./br_set/tyr/2Y9X_pH50_pose1.pdbqt: -8.246 kcal/mol
+./br_set/tyr/2Y9X_pH74_pose1.pdbqt: -8.203 kcal/mol
+./br_set/tyr/3NQ1_pH50_pose1.pdbqt: -8.603 kcal/mol
+./br_set/tyr/3NQ1_pH74_pose1.pdbqt: -8.614 kcal/mol
+./br_set/tyr/4P6R_pH50_pose1.pdbqt: -9.258 kcal/mol
+./br_set/tyr/4P6R_pH74_pose1.pdbqt: -9.225 kcal/mol
+./br_set/tyr/5I38_pH50_pose1.pdbqt: -10.615 kcal/mol
+./br_set/tyr/5I38_pH74_pose1.pdbqt: -10.645 kcal/mol
+./br_set/tyr/5M8L_pH50_pose1.pdbqt: -8.909 kcal/mol
+./br_set/tyr/5M8L_pH74_pose1.pdbqt: -8.359 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_deca.pdbqt: -8.246 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_hybrid_deca_1ade.pdbqt: -11.023 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_hybrid_deca_quercetin.pdbqt: -11.319 kcal/mol
+./br_set/tyr/vina_2Y9X_pH50_metal.pdbqt: -8.049 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_deca.pdbqt: -8.203 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_hybrid_deca_1ade.pdbqt: -10.941 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_hybrid_deca_quercetin.pdbqt: -10.998 kcal/mol
+./br_set/tyr/vina_2Y9X_pH74_metal.pdbqt: -7.490 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_deca.pdbqt: -8.603 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_hybrid_deca_1ade.pdbqt: -10.840 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_hybrid_deca_quercetin.pdbqt: -10.976 kcal/mol
+./br_set/tyr/vina_3NQ1_pH50_metal.pdbqt: -2.968 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_deca.pdbqt: -8.614 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_hybrid_deca_1ade.pdbqt: -10.282 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_hybrid_deca_quercetin.pdbqt: -10.983 kcal/mol
+./br_set/tyr/vina_3NQ1_pH74_metal.pdbqt: -2.445 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_deca.pdbqt: -9.258 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_hybrid_deca_1ade.pdbqt: -10.668 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_hybrid_deca_quercetin.pdbqt: -11.666 kcal/mol
+./br_set/tyr/vina_4P6R_pH50_metal.pdbqt: -2.167 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_deca.pdbqt: -9.225 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_hybrid_deca_1ade.pdbqt: -10.629 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_hybrid_deca_quercetin.pdbqt: -11.639 kcal/mol
+./br_set/tyr/vina_4P6R_pH74_metal.pdbqt: -1.568 kcal/mol
+./br_set/tyr/vina_5I38_pH50_deca.pdbqt: -10.615 kcal/mol
+./br_set/tyr/vina_5I38_pH50_hybrid_deca_1ade.pdbqt: -11.450 kcal/mol
+./br_set/tyr/vina_5I38_pH50_hybrid_deca_quercetin.pdbqt: -12.574 kcal/mol
+./br_set/tyr/vina_5I38_pH50_metal.pdbqt: -7.053 kcal/mol
+./br_set/tyr/vina_5I38_pH74_deca.pdbqt: -10.645 kcal/mol
+./br_set/tyr/vina_5I38_pH74_hybrid_deca_1ade.pdbqt: -11.396 kcal/mol
+./br_set/tyr/vina_5I38_pH74_hybrid_deca_quercetin.pdbqt: -12.601 kcal/mol
+./br_set/tyr/vina_5I38_pH74_metal.pdbqt: -6.321 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_deca.pdbqt: -8.909 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_hybrid_deca_1ade.pdbqt: -11.365 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_hybrid_deca_quercetin.pdbqt: -11.007 kcal/mol
+./br_set/tyr/vina_5M8L_pH50_metal.pdbqt: -8.375 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_deca.pdbqt: -8.359 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_hybrid_deca_1ade.pdbqt: -11.115 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_hybrid_deca_quercetin.pdbqt: -10.842 kcal/mol
+./br_set/tyr/vina_5M8L_pH74_metal.pdbqt: -8.354 kcal/mol
+./br_set/vina_2fb8_deca_P.pdbqt: -7.694 kcal/mol
+./br_set/vina_3c4c_deca_P.pdbqt: -7.988 kcal/mol
+./br_set/vina_3idp_deca_P.pdbqt: -7.573 kcal/mol
+./br_set/vina_3og7_deca_P.pdbqt: -8.079 kcal/mol
+./br_set/vina_3pp0_deca.pdbqt: -6.777 kcal/mol
+./br_set/vina_4WO5_pH50_quercetin_ATP.pdbqt: -7.975 kcal/mol
+./br_set/vina_4xv2_deca_P.pdbqt: -7.533 kcal/mol
+./br_set/vina_4xv3_deca.pdbqt: -7.172 kcal/mol
+./br_set/vina_5hie_deca_P.pdbqt: -10.288 kcal/mol
+./br_set/vina_braf_deca_atp.pdbqt: -6.977 kcal/mol
+./br_set/vina_braf_deca_blind.pdbqt: -8.372 kcal/mol
+./br_set/vina_braf_deca_P.pdbqt: -6.452 kcal/mol
+./br_set/vina_src_deca.pdbqt: -8.081 kcal/mol
+./br_set/vina_tyrp1_deca.pdbqt: -4.493 kcal/mol
+./experimento_0_1RUV/vina_1RUV_redock.pdbqt: -7.541 kcal/mol
+
+============================================
+3. RESULTADOS DINÁMICA MOLECULAR (.log)
+============================================
+
+Archivo: ./md/em.log
+  Finished mdrun on rank 0 Tue Aug  4 22:49:03 2026
+
+Archivo: ./md/md_prod.log
+  Performance:       19.917        1.205        8.676            4.735 
+  Finished mdrun on rank 0 Wed Aug  5 11:48:04 2026
+
+Archivo: ./md/npt.log
+  Performance:       12.905        1.860       13.390            3.068 
+  Finished mdrun on rank 0 Tue Aug  4 23:35:47 2026
+
+Archivo: ./md/nvt.log
+  Performance:       17.054        1.407       10.132            4.054 
+  Finished mdrun on rank 0 Tue Aug  4 23:00:13 2026
+
+Archivo: ./MD_V10_4WO5/em.log
+  Finished mdrun on rank 0 Sun Aug 16 06:12:33 2026
+
+Archivo: ./MD_V10_4WO5/md.log
+  Performance:       12.592        1.906
+  Finished mdrun on rank 0 Mon Aug 17 03:15:05 2026
+
+Archivo: ./MD_V10_4WO5/md_produccion.log
+  Performance:       12.592        1.906
+
+Archivo: ./MD_V10_4WO5/npt.log
+  Performance:       13.653        1.758
+  Finished mdrun on rank 0 Sun Aug 16 06:33:58 2026
+
+Archivo: ./MD_V10_4WO5/nvt.log
+  Performance:       13.432        1.787
+  Finished mdrun on rank 0 Sun Aug 16 06:23:20 2026
+
+============================================
+4. VALORES FINALES RMSD (.xvg)
+============================================
+./md/dist_vo4_prot.xvg: 0.921
+./md/npt_density.xvg: 1012.179565
+./md/npt_pressure_density.xvg: -86.970886
+./md/nvt_temperature.xvg: 300.431122
+./md/rmsd_protein.xvg: 0.4136868
+./md/rmsd_vo4.xvg: 0.6245089
+./MD_V10_4WO5/dist_v10_prot.xvg: 1.888
+./MD_V10_4WO5/rmsd_protein_v10.xvg: 0.3017084
+./MD_V10_4WO5/rmsd_v10.xvg: 0.8450552
+./software/envs/gmx/share/gromacs/top/table6-10.xvg: 3.3333333333e-01
+./software/envs/gmx/share/gromacs/top/table6-11.xvg: 3.3333333333e-01
+./software/envs/gmx/share/gromacs/top/table6-12.xvg: 3.3333333333e-01
+./software/envs/gmx/share/gromacs/top/table6-8.xvg: 3.3333333333e-01
+./software/envs/gmx/share/gromacs/top/table6-9.xvg: 3.3333333333e-01
+
+============================================
+5. VALIDACIÓN METODOLÓGICA (1RUV)
+============================================
+Energías de redocking 1RUV:
+REMARK VINA RESULT:    -7.541      0.000      0.000
+REMARK VINA RESULT:    -7.001      3.481      6.592
+REMARK VINA RESULT:    -6.504      1.506      1.633
+REMARK VINA RESULT:    -6.444      2.838      4.533
+REMARK VINA RESULT:    -6.320      5.374      9.723
+REMARK VINA RESULT:    -6.304      2.377      4.354
+REMARK VINA RESULT:    -6.208      4.145      7.055
+REMARK VINA RESULT:    -6.118      2.969      6.607
+REMARK VINA RESULT:    -5.906      3.001      4.768
+REMARK VINA RESULT:    -5.761      2.832      6.189
+
+============================================
+FIN DEL RESUMEN
