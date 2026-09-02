@@ -1,0 +1,35 @@
+REMARK  Name = vina_1RUV_redock.pdbqt
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9
+REMARK    2  A    between atoms: C4'_13  and  C5'_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 C1'  UVC A 125      31.004  13.444   8.345  0.00  0.00    +0.000 C 
+ATOM      2 C2'  UVC A 125      31.117  14.787   7.618  0.00  0.00    +0.000 C 
+ATOM      3 O2'  UVC A 125      29.764  15.079   7.467  0.00  0.00    -0.750 OA
+ATOM      4 C3'  UVC A 125      31.731  14.339   6.333  0.00  0.00    +0.000 C 
+ATOM      5 C4'  UVC A 125      31.227  12.966   6.045  0.00  0.00    +0.000 C 
+ATOM      6 O3'  UVC A 125      31.177  15.245   5.428  0.00  0.00    -0.750 OA
+ATOM      7 O4'  UVC A 125      31.023  12.294   7.379  0.00  0.00    +0.000 OA
+ATOM      8 V    UVC A 125      29.670  16.429   5.999  0.00  0.00    +1.500 Zn
+ATOM      9 O1V  UVC A 125      29.915  17.997   6.802  0.00  0.00    -0.750 OA
+ATOM     10 O2V  UVC A 125      28.339  16.373   5.842  0.00  0.00    -0.750 OA
+ATOM     11 O3V  UVC A 125      30.206  17.010   4.257  0.00  0.00    -0.750 OA
+ENDROOT
+BRANCH   1  12
+ATOM     12 N1   UVC A 125      32.211  13.178   9.153  0.00  0.00    +0.000 N 
+ATOM     13 C2   UVC A 125      32.080  13.779  10.514  0.00  0.00    +0.000 C 
+ATOM     14 N3   UVC A 125      33.192  13.494  11.194  0.00  0.00    +0.000 NA
+ATOM     15 C4   UVC A 125      34.312  12.855  10.956  0.00  0.00    +0.000 C 
+ATOM     16 C5   UVC A 125      34.374  12.310   9.567  0.00  0.00    +0.000 C 
+ATOM     17 C6   UVC A 125      33.284  12.529   8.820  0.00  0.00    +0.000 C 
+ATOM     18 O2   UVC A 125      31.123  14.320  10.729  0.00  0.00    +0.000 OA
+ATOM     19 O4   UVC A 125      35.291  12.711  11.749  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   5  20
+ATOM     20 C5'  UVC A 125      31.914  11.828   5.247  0.00  0.00    +0.000 C 
+ATOM     21 O5'  UVC A 125      33.233  11.850   5.694  0.00  0.00    +0.000 OA
+ENDBRANCH   5  20
+TORSDOF 2
