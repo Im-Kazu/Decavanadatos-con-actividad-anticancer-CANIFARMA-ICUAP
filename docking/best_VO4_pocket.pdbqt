@@ -1,0 +1,35 @@
+MODEL       14
+USER    Run = 14
+USER    DPF = pocket_blue.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -1.80 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =   48.30 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -1.80 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -0.76 kcal/mol
+USER        Electrostatic Energy            =   -1.04 kcal/mol
+USER    (2) Final Total Internal Energy     =   +0.00 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.00 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   +0.00 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ../ligands/orthovanadate.pdbqt
+USER    NEWDPF about 0.000000 0.000000 0.000000
+USER    NEWDPF tran0 -48.274013 -14.201132 -55.538088
+USER    NEWDPF quaternion0 0.403287 -0.807391 0.421868 -0.086645
+USER    NEWDPF axisangle0 0.404809 -0.810439 0.423461 -170.058749
+USER    NEWDPF quat0 0.404809 -0.810439 0.423461 -170.058749
+USER  keepresnum = 1 
+USER  
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  V1  VO4 A   1     -48.274 -14.201 -55.538 +0.20 +0.97    +1.500 Zn
+ATOM      2  O1  VO4 A   1     -49.470 -15.222 -56.306 +0.04 -0.10    -0.750 OA
+ATOM      3  O2  VO4 A   1     -48.411 -14.348 -53.800 -0.02 -0.30    -0.750 OA
+ATOM      4  O3  VO4 A   1     -48.542 -12.537 -56.005 -0.51 -0.78    -0.750 OA
+ATOM      5  O4  VO4 A   1     -46.674 -14.698 -56.041 -0.47 -0.83    -0.750 OA
+ENDROOT
+TORSDOF 0
+TER
+ENDMDL

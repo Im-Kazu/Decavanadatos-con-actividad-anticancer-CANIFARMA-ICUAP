@@ -1,0 +1,33 @@
+          AutoDock 4.2 Release 4.2.6   
+         (C) 1989-2012 The Scripps Research Institute
+        AutoDock comes with ABSOLUTELY NO WARRANTY.
+        AutoDock is free software, and you are welcome
+        to redistribute it under certain conditions;
+        for details type 'autodock4 -C'
+
+                     main.cc  $Revision: 1.213 $
+
+                   Compiled on Dec 11 2024 at 15:52:35
+
+
+This file was created at:			6:12 08" p.m., 08/04/2026
+                   on host:		"TerminalXolotl"
+Current Working Directory = "/mnt/c/Users/Me/Desktop/CANIFARMA/docking"
+
+      ________________________________________________________________
+
+                   SETTING UP DEFAULT PARAMETER LIBRARY
+      ________________________________________________________________
+
+
+Random number generator was seeded with values 3394, 1785888728.
+Docking parameter file (DPF) used for this docking:		test.dpf
+DPF> parameter_file /mnt/c/Users/Me/Desktop/CANIFARMA/grid/AD4.1_bound.dat
+
+Using read_parameter_library() to try to open and read "/mnt/c/Users/Me/Desktop/CANIFARMA/grid/AD4.1_bound.dat".
+
+DPF> fld /mnt/c/Users/Me/Desktop/CANIFARMA/grid/4wo5_chainA.maps.fld
+
+autodock4: FATAL ERROR: You must specify the ligand_types before reading the grid data file.
+autodock4: Unsuccessful Completion.
+

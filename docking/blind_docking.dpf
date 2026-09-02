@@ -1,0 +1,25 @@
+parameter_file ../grid/AD4.1_bound.dat
+ligand_types Zn OA
+fld ../grid/4wo5_chainA.maps.fld
+map ../grid/4wo5_chainA.Zn.map
+map ../grid/4wo5_chainA.OA.map
+elecmap ../grid/4wo5_chainA.e.map
+desolvmap ../grid/4wo5_chainA.d.map
+move ../ligands/decavanadate.pdbqt
+set_ga
+set_sw1
+tran0 random
+quaternion0 random
+ndihe 0
+torsdof 0
+rmstol 2.0
+outlev 1
+ga_pop_size 150
+ga_num_evals 2500000
+ga_num_generations 27000
+ga_elitism 1
+ga_mutation_rate 0.02
+ga_crossover_rate 0.80
+ga_window_size 10
+ga_run 50
+do_local_only 0
