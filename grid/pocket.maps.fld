@@ -1,0 +1,34 @@
+# AVS field file
+#
+# AutoDock Atomic Affinity and Electrostatic Grids
+#
+# Created by autogrid4 4.2.7.x.
+#
+#SPACING 0.375
+#NELEMENTS 60 60 60
+#CENTER -38.789 -21.450 -45.132
+#MACROMOLECULE ../receptor/4wo5_chainA.pdbqt
+#GRID_PARAMETER_FILE pocket_blue.gpf
+#
+ndim=3			# number of dimensions in the field
+dim1=61			# number of x-elements
+dim2=61			# number of y-elements
+dim3=61			# number of z-elements
+nspace=3		# number of physical coordinates per point
+veclen=4		# number of affinity values at each point
+data=float		# data type (byte, integer, float, double)
+field=uniform		# field type (uniform, rectilinear, irregular)
+coord 1 file=pocket.maps.xyz filetype=ascii offset=0
+coord 2 file=pocket.maps.xyz filetype=ascii offset=2
+coord 3 file=pocket.maps.xyz filetype=ascii offset=4
+label=Zn-affinity	# component label for variable 1
+label=OA-affinity	# component label for variable 2
+label=Electrostatics	# component label for variable 3
+label=Desolvation	# component label for variable 4
+#
+# location of affinity grid files and how to read them
+#
+variable 1 file=pocket.Zn.map filetype=ascii skip=6
+variable 2 file=pocket.OA.map filetype=ascii skip=6
+variable 3 file=pocket.e.map filetype=ascii skip=6
+variable 4 file=pocket.d.map filetype=ascii skip=6

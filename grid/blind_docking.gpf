@@ -1,0 +1,14 @@
+parameter_file AD4.1_bound.dat
+npts 220 200 220
+gridfld 4wo5_chainA.maps.fld
+spacing 0.375
+receptor_types A C HD N NA OA S SA
+ligand_types Zn OA
+receptor ../receptor/4wo5_chainA.pdbqt
+gridcenter -29.625 -17.138 -51.670
+smooth 0.5
+map 4wo5_chainA.Zn.map
+map 4wo5_chainA.OA.map
+elecmap 4wo5_chainA.e.map
+dsolvmap 4wo5_chainA.d.map
+dielectric -0.1465
